@@ -1,0 +1,86 @@
+.wrapper {
+	width: 94%;
+	max-width: 700px;
+	min-width: 280px;
+	margin: 0 auto 30px auto;
+	background-color: white;
+	position: relative;
+	padding: 20px;
+}
+.wrapper h3 {
+	margin: 0px;
+	color: black;
+	padding: 10px;
+}
+
+.form {
+	padding: 10px 0px;
+}
+.form:before,.form:after {
+    content:"";
+    display:table;
+}
+.form:after {
+    clear:both;
+}
+
+.form label {
+	height: 40px;
+	float: left;
+	padding-right: 3%;
+	width: 50%;
+	min-width: 80px;
+	font-size: 13px;
+	color: red;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.form input[type=text],.form input[type=email],.form input[type=date]
+ {
+	border: 1px solid #ddd;
+	padding: 10px;
+	font-weight: bold;
+	text-shadow: 0 1px 1px rgba(255,255,255,0.8);
+	color: #666;
+	width: 64%;
+	background: white;
+}
+
+.form input[type="submit"] {
+	border: 1px solid orange;
+	color: black;
+	display: inline-block;
+	border-radius: 4px;
+	margin-top: 10px;
+	margin-left: 33%;
+	padding: 6px 15px;
+	font-family: arial,times new roman,verdana,serif;
+	font-weight: bold;
+	background: #ffaf4b;
+}
+
+@media screen and (max-width: 780px) {
+	.wrapper {
+		background-position: 220px 60px;
+	}
+	.wrapper h3 {
+		padding-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 385px) {
+	.wrapper {
+		background: #white;
+	}
+}
+@media screen and (max-width: 330px) {
+	.form label,
+	.form input[type=text],
+	.form input[type=email],
+	.form input[type=date]{
+		width: 100%;
+	}
+	
+}
