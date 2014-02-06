@@ -1,0 +1,16 @@
+( OR ( NOT a ) b ) 
+( OR ( c ) ( OR ( NOT a ) d ) ) 
+( OR ( a ) ( NOT c ) ) 
+( OR ( NOT d ) ( NOT c ) ) 
+( NOT d ) 
+( OR ( NOT b ) ( NOT c ) ) 
+( OR e b ) 
+( OR ( c ) ( NOT c ) ) 
+( OR e ( NOT ( d ) ) ) 
+( OR ( NOT b ) ( OR ( c ) a ) ) 
+( OR ( NOT c ) b ) 
+( OR ( NOT a ) c ) 
+( OR ( NOT e ) c ) 
+a 
+b 
+( NOT c )

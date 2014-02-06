@@ -1,0 +1,49 @@
+c2=new StringBuffer(clauses.get(j).trim());
+					//System.out.println("resolve "+clauses.get(i)+" with "+clauses.get(j));
+					c2_literals.clear();
+					get_literals(c2, c2_literals);	
+					combined_literals.clear();
+					for(int k=0;k<c1_literals.size();k++)
+						combined_literals.add(c1_literals.get(k));
+					for(int k=0;k<c2_literals.size();k++)
+						combined_literals.add(c2_literals.get(k));
+					for (int k=0;k<c1_literals.size();k++)
+					{
+						//System.out.println("passed to resolve:"+combined_literals.get(k));
+						if (contains_comp_literals(combined_literals,combined_literals.get(k)))
+						{
+							resolvents=new StringBuffer(resolve(combined_literals,combined_literals.get(k)));
+							add=true;
+							//System.out.println("resolvent answer:"+resolvents+"\n");
+							if((resolvents.toString().equals("BLANK"))||(resolvents.toString().equals(" "))||(resolvents.toString().equals("")))
+							{
+								//System.out.println("entailed string:");
+								result=new StringBuffer("Entailed");
+								return result;
+							}
+							remove_unwanted_paranthesis(resolvents);
+							//System.out.println("removing paranthesis:"+resolvents);
+							remove_unwanted_brackets(resolvents);
+							//System.out.println("removing brackets:"+resolvents);
+							//added=check_if_already_added(resolvents.toString(),recent);
+							for(int p=0;p<recent.size();p++)
+							{
+								if(recent.get(p).equals(resolvents.toString().trim()))
+								{
+									add=false;
+									break;
+								}
+								else
+									add=true;
+							}
+							//System.out.println("resolvents:"+resolvents);
+							if(add)
+							{
+								//System.out.println("recent:"+recent.get(i));
+								recent.add(resolvents.toString().trim());
+							}
+						}
+					}
+					is_it_always_true(recent);
+				}	
+			}

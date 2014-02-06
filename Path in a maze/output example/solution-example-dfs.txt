@@ -1,0 +1,2679 @@
+Number of Iteration = 214
+Path length = 86
+x = 1 y = 1 speed = 2 g = 0
+x = 2 y = 1 speed = 2 g = 0.5
+x = 3 y = 1 speed = 2 g = 1
+x = 4 y = 1 speed = 2 g = 1.5
+x = 5 y = 1 speed = 2 g = 2
+x = 6 y = 1 speed = 2 g = 2.5
+x = 7 y = 1 speed = 2 g = 3
+x = 8 y = 1 speed = 2 g = 3.5
+x = 9 y = 1 speed = 2 g = 4
+x = 10 y = 1 speed = 2 g = 4.5
+x = 11 y = 1 speed = 2 g = 5
+x = 12 y = 1 speed = 2 g = 5.5
+x = 13 y = 1 speed = 2 g = 6
+x = 14 y = 1 speed = 2 g = 6.5
+x = 15 y = 1 speed = 2 g = 7
+x = 15 y = 2 speed = 2 g = 7.5
+x = 15 y = 3 speed = 2 g = 8
+x = 15 y = 4 speed = 2 g = 8.5
+x = 15 y = 5 speed = 2 g = 9
+x = 14 y = 5 speed = 2 g = 9.5
+x = 13 y = 5 speed = 2 g = 10
+x = 13 y = 4 speed = 2 g = 10.5
+x = 13 y = 3 speed = 2 g = 11
+x = 12 y = 3 speed = 2 g = 11.5
+x = 11 y = 3 speed = 2 g = 12
+x = 11 y = 4 speed = 2 g = 12.5
+x = 11 y = 5 speed = 2 g = 13
+x = 10 y = 5 speed = 2 g = 13.5
+x = 9 y = 5 speed = 2 g = 14
+x = 9 y = 4 speed = 2 g = 14.5
+x = 9 y = 3 speed = 2 g = 15
+x = 8 y = 3 speed = 2 g = 15.5
+x = 7 y = 3 speed = 2 g = 16
+x = 7 y = 4 speed = 2 g = 16.5
+x = 6 y = 4 speed = 2 g = 17
+x = 5 y = 4 speed = 2 g = 17.5
+x = 5 y = 3 speed = 2 g = 18
+x = 4 y = 3 speed = 1.9 g = 18.5
+x = 5 y = 3 speed = 1.9 g = 19.03
+x = 5 y = 2 speed = 1.9 g = 19.55
+x = 5 y = 1 speed = 1.9 g = 20.08
+x = 6 y = 1 speed = 1.9 g = 20.61
+x = 7 y = 1 speed = 1.9 g = 21.13
+x = 8 y = 1 speed = 1.9 g = 21.66
+x = 9 y = 1 speed = 1.9 g = 22.18
+x = 10 y = 1 speed = 1.9 g = 22.71
+x = 11 y = 1 speed = 1.9 g = 23.24
+x = 12 y = 1 speed = 1.9 g = 23.76
+x = 13 y = 1 speed = 1.9 g = 24.29
+x = 14 y = 1 speed = 1.9 g = 24.82
+x = 15 y = 1 speed = 1.9 g = 25.34
+x = 15 y = 2 speed = 1.9 g = 25.87
+x = 15 y = 3 speed = 1.9 g = 26.39
+x = 15 y = 4 speed = 1.9 g = 26.92
+x = 15 y = 5 speed = 1.9 g = 27.45
+x = 14 y = 5 speed = 1.9 g = 27.97
+x = 13 y = 5 speed = 1.9 g = 28.5
+x = 13 y = 4 speed = 1.9 g = 29.03
+x = 13 y = 3 speed = 1.9 g = 29.55
+x = 12 y = 3 speed = 1.9 g = 30.08
+x = 11 y = 3 speed = 1.9 g = 30.61
+x = 11 y = 4 speed = 1.9 g = 31.13
+x = 11 y = 5 speed = 1.9 g = 31.66
+x = 10 y = 5 speed = 1.9 g = 32.18
+x = 9 y = 5 speed = 1.9 g = 32.71
+x = 8 y = 5 speed = 1.9 g = 33.24
+x = 8 y = 6 speed = 1.9 g = 33.76
+x = 8 y = 7 speed = 1.9 g = 34.29
+x = 8 y = 8 speed = 1.9 g = 34.82
+x = 8 y = 9 speed = 1.9 g = 35.34
+x = 8 y = 10 speed = 1.9 g = 35.87
+x = 8 y = 11 speed = 1.9 g = 36.39
+x = 8 y = 12 speed = 1.9 g = 36.92
+x = 8 y = 13 speed = 1.9 g = 37.45
+x = 8 y = 14 speed = 1.9 g = 37.97
+x = 9 y = 14 speed = 1.9 g = 38.5
+x = 10 y = 14 speed = 1.9 g = 39.03
+x = 11 y = 14 speed = 1.9 g = 39.55
+x = 12 y = 14 speed = 1.9 g = 40.08
+x = 13 y = 14 speed = 1.9 g = 40.61
+x = 14 y = 14 speed = 1.9 g = 41.13
+x = 15 y = 14 speed = 1.9 g = 41.66
+x = 16 y = 14 speed = 1.9 g = 42.18
+x = 17 y = 14 speed = 1.9 g = 42.71
+x = 18 y = 14 speed = 1.9 g = 43.24
+x = 19 y = 14 speed = 1.9 g = 43.76
+----------------------------------
+Search log
+Iteration = 1
+Current Node : x = 1 y = 1 speed = 2 g = 0
+Child List:
+index = 0 x = 2 y = 1 speed = 2 g = 0.5
+Frontier List:
+index = 0 x = 2 y = 1 speed = 2 g = 0.5
+
+Iteration = 2
+Current Node : x = 2 y = 1 speed = 2 g = 0.5
+Child List:
+index = 0 x = 1 y = 1 speed = 2 g = 1
+index = 1 x = 2 y = 2 speed = 2 g = 1
+index = 2 x = 3 y = 1 speed = 2 g = 1
+Frontier List:
+index = 0 x = 3 y = 1 speed = 2 g = 1
+index = 1 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 3
+Current Node : x = 3 y = 1 speed = 2 g = 1
+Child List:
+index = 0 x = 2 y = 1 speed = 2 g = 1.5
+index = 1 x = 4 y = 1 speed = 2 g = 1.5
+Frontier List:
+index = 0 x = 4 y = 1 speed = 2 g = 1.5
+index = 1 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 4
+Current Node : x = 4 y = 1 speed = 2 g = 1.5
+Child List:
+index = 0 x = 3 y = 1 speed = 2 g = 2
+index = 1 x = 5 y = 1 speed = 2 g = 2
+Frontier List:
+index = 0 x = 5 y = 1 speed = 2 g = 2
+index = 1 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 5
+Current Node : x = 5 y = 1 speed = 2 g = 2
+Child List:
+index = 0 x = 4 y = 1 speed = 2 g = 2.5
+index = 1 x = 5 y = 2 speed = 2 g = 2.5
+index = 2 x = 6 y = 1 speed = 2 g = 2.5
+Frontier List:
+index = 0 x = 6 y = 1 speed = 2 g = 2.5
+index = 1 x = 5 y = 2 speed = 2 g = 2.5
+index = 2 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 6
+Current Node : x = 6 y = 1 speed = 2 g = 2.5
+Child List:
+index = 0 x = 5 y = 1 speed = 2 g = 3
+index = 1 x = 7 y = 1 speed = 2 g = 3
+Frontier List:
+index = 0 x = 7 y = 1 speed = 2 g = 3
+index = 1 x = 5 y = 2 speed = 2 g = 2.5
+index = 2 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 7
+Current Node : x = 7 y = 1 speed = 2 g = 3
+Child List:
+index = 0 x = 6 y = 1 speed = 2 g = 3.5
+index = 1 x = 7 y = 2 speed = 2 g = 3.5
+index = 2 x = 8 y = 1 speed = 2 g = 3.5
+Frontier List:
+index = 0 x = 8 y = 1 speed = 2 g = 3.5
+index = 1 x = 7 y = 2 speed = 2 g = 3.5
+index = 2 x = 5 y = 2 speed = 2 g = 2.5
+index = 3 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 8
+Current Node : x = 8 y = 1 speed = 2 g = 3.5
+Child List:
+index = 0 x = 7 y = 1 speed = 2 g = 4
+index = 1 x = 8 y = 2 speed = 2 g = 4
+index = 2 x = 9 y = 1 speed = 2 g = 4
+Frontier List:
+index = 0 x = 9 y = 1 speed = 2 g = 4
+index = 1 x = 8 y = 2 speed = 2 g = 4
+index = 2 x = 7 y = 2 speed = 2 g = 3.5
+index = 3 x = 5 y = 2 speed = 2 g = 2.5
+index = 4 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 9
+Current Node : x = 9 y = 1 speed = 2 g = 4
+Child List:
+index = 0 x = 8 y = 1 speed = 2 g = 4.5
+index = 1 x = 10 y = 1 speed = 2 g = 4.5
+Frontier List:
+index = 0 x = 10 y = 1 speed = 2 g = 4.5
+index = 1 x = 8 y = 2 speed = 2 g = 4
+index = 2 x = 7 y = 2 speed = 2 g = 3.5
+index = 3 x = 5 y = 2 speed = 2 g = 2.5
+index = 4 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 10
+Current Node : x = 10 y = 1 speed = 2 g = 4.5
+Child List:
+index = 0 x = 9 y = 1 speed = 2 g = 5
+index = 1 x = 10 y = 2 speed = 2 g = 5
+index = 2 x = 11 y = 1 speed = 2 g = 5
+Frontier List:
+index = 0 x = 11 y = 1 speed = 2 g = 5
+index = 1 x = 10 y = 2 speed = 2 g = 5
+index = 2 x = 8 y = 2 speed = 2 g = 4
+index = 3 x = 7 y = 2 speed = 2 g = 3.5
+index = 4 x = 5 y = 2 speed = 2 g = 2.5
+index = 5 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 11
+Current Node : x = 11 y = 1 speed = 2 g = 5
+Child List:
+index = 0 x = 10 y = 1 speed = 2 g = 5.5
+index = 1 x = 11 y = 2 speed = 2 g = 5.5
+index = 2 x = 12 y = 1 speed = 2 g = 5.5
+Frontier List:
+index = 0 x = 12 y = 1 speed = 2 g = 5.5
+index = 1 x = 11 y = 2 speed = 2 g = 5.5
+index = 2 x = 10 y = 2 speed = 2 g = 5
+index = 3 x = 8 y = 2 speed = 2 g = 4
+index = 4 x = 7 y = 2 speed = 2 g = 3.5
+index = 5 x = 5 y = 2 speed = 2 g = 2.5
+index = 6 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 12
+Current Node : x = 12 y = 1 speed = 2 g = 5.5
+Child List:
+index = 0 x = 11 y = 1 speed = 2 g = 6
+index = 1 x = 12 y = 2 speed = 2 g = 6
+index = 2 x = 13 y = 1 speed = 2 g = 6
+Frontier List:
+index = 0 x = 13 y = 1 speed = 2 g = 6
+index = 1 x = 12 y = 2 speed = 2 g = 6
+index = 2 x = 11 y = 2 speed = 2 g = 5.5
+index = 3 x = 10 y = 2 speed = 2 g = 5
+index = 4 x = 8 y = 2 speed = 2 g = 4
+index = 5 x = 7 y = 2 speed = 2 g = 3.5
+index = 6 x = 5 y = 2 speed = 2 g = 2.5
+index = 7 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 13
+Current Node : x = 13 y = 1 speed = 2 g = 6
+Child List:
+index = 0 x = 12 y = 1 speed = 2 g = 6.5
+index = 1 x = 13 y = 2 speed = 2 g = 6.5
+index = 2 x = 14 y = 1 speed = 2 g = 6.5
+Frontier List:
+index = 0 x = 14 y = 1 speed = 2 g = 6.5
+index = 1 x = 13 y = 2 speed = 2 g = 6.5
+index = 2 x = 12 y = 2 speed = 2 g = 6
+index = 3 x = 11 y = 2 speed = 2 g = 5.5
+index = 4 x = 10 y = 2 speed = 2 g = 5
+index = 5 x = 8 y = 2 speed = 2 g = 4
+index = 6 x = 7 y = 2 speed = 2 g = 3.5
+index = 7 x = 5 y = 2 speed = 2 g = 2.5
+index = 8 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 14
+Current Node : x = 14 y = 1 speed = 2 g = 6.5
+Child List:
+index = 0 x = 13 y = 1 speed = 2 g = 7
+index = 1 x = 14 y = 2 speed = 2 g = 7
+index = 2 x = 15 y = 1 speed = 2 g = 7
+Frontier List:
+index = 0 x = 15 y = 1 speed = 2 g = 7
+index = 1 x = 14 y = 2 speed = 2 g = 7
+index = 2 x = 13 y = 2 speed = 2 g = 6.5
+index = 3 x = 12 y = 2 speed = 2 g = 6
+index = 4 x = 11 y = 2 speed = 2 g = 5.5
+index = 5 x = 10 y = 2 speed = 2 g = 5
+index = 6 x = 8 y = 2 speed = 2 g = 4
+index = 7 x = 7 y = 2 speed = 2 g = 3.5
+index = 8 x = 5 y = 2 speed = 2 g = 2.5
+index = 9 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 15
+Current Node : x = 15 y = 1 speed = 2 g = 7
+Child List:
+index = 0 x = 14 y = 1 speed = 2 g = 7.5
+index = 1 x = 15 y = 2 speed = 2 g = 7.5
+index = 2 x = 16 y = 1 speed = 2 g = 7.5
+Frontier List:
+index = 0 x = 16 y = 1 speed = 2 g = 7.5
+index = 1 x = 15 y = 2 speed = 2 g = 7.5
+index = 2 x = 14 y = 2 speed = 2 g = 7
+index = 3 x = 13 y = 2 speed = 2 g = 6.5
+index = 4 x = 12 y = 2 speed = 2 g = 6
+index = 5 x = 11 y = 2 speed = 2 g = 5.5
+index = 6 x = 10 y = 2 speed = 2 g = 5
+index = 7 x = 8 y = 2 speed = 2 g = 4
+index = 8 x = 7 y = 2 speed = 2 g = 3.5
+index = 9 x = 5 y = 2 speed = 2 g = 2.5
+index = 10 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 16
+Current Node : x = 16 y = 1 speed = 2 g = 7.5
+Child List:
+index = 0 x = 15 y = 1 speed = 2 g = 8
+index = 1 x = 16 y = 2 speed = 2 g = 8
+index = 2 x = 17 y = 1 speed = 2 g = 8
+Frontier List:
+index = 0 x = 17 y = 1 speed = 2 g = 8
+index = 1 x = 16 y = 2 speed = 2 g = 8
+index = 2 x = 15 y = 2 speed = 2 g = 7.5
+index = 3 x = 14 y = 2 speed = 2 g = 7
+index = 4 x = 13 y = 2 speed = 2 g = 6.5
+index = 5 x = 12 y = 2 speed = 2 g = 6
+index = 6 x = 11 y = 2 speed = 2 g = 5.5
+index = 7 x = 10 y = 2 speed = 2 g = 5
+index = 8 x = 8 y = 2 speed = 2 g = 4
+index = 9 x = 7 y = 2 speed = 2 g = 3.5
+index = 10 x = 5 y = 2 speed = 2 g = 2.5
+index = 11 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 17
+Current Node : x = 17 y = 1 speed = 2 g = 8
+Child List:
+index = 0 x = 16 y = 1 speed = 2 g = 8.5
+index = 1 x = 17 y = 2 speed = 2 g = 8.5
+index = 2 x = 18 y = 1 speed = 2 g = 8.5
+Frontier List:
+index = 0 x = 18 y = 1 speed = 2 g = 8.5
+index = 1 x = 17 y = 2 speed = 2 g = 8.5
+index = 2 x = 16 y = 2 speed = 2 g = 8
+index = 3 x = 15 y = 2 speed = 2 g = 7.5
+index = 4 x = 14 y = 2 speed = 2 g = 7
+index = 5 x = 13 y = 2 speed = 2 g = 6.5
+index = 6 x = 12 y = 2 speed = 2 g = 6
+index = 7 x = 11 y = 2 speed = 2 g = 5.5
+index = 8 x = 10 y = 2 speed = 2 g = 5
+index = 9 x = 8 y = 2 speed = 2 g = 4
+index = 10 x = 7 y = 2 speed = 2 g = 3.5
+index = 11 x = 5 y = 2 speed = 2 g = 2.5
+index = 12 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 18
+Current Node : x = 18 y = 1 speed = 2 g = 8.5
+Child List:
+index = 0 x = 17 y = 1 speed = 2 g = 9
+index = 1 x = 18 y = 2 speed = 2 g = 9
+index = 2 x = 19 y = 1 speed = 2 g = 9
+Frontier List:
+index = 0 x = 19 y = 1 speed = 2 g = 9
+index = 1 x = 18 y = 2 speed = 2 g = 9
+index = 2 x = 17 y = 2 speed = 2 g = 8.5
+index = 3 x = 16 y = 2 speed = 2 g = 8
+index = 4 x = 15 y = 2 speed = 2 g = 7.5
+index = 5 x = 14 y = 2 speed = 2 g = 7
+index = 6 x = 13 y = 2 speed = 2 g = 6.5
+index = 7 x = 12 y = 2 speed = 2 g = 6
+index = 8 x = 11 y = 2 speed = 2 g = 5.5
+index = 9 x = 10 y = 2 speed = 2 g = 5
+index = 10 x = 8 y = 2 speed = 2 g = 4
+index = 11 x = 7 y = 2 speed = 2 g = 3.5
+index = 12 x = 5 y = 2 speed = 2 g = 2.5
+index = 13 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 19
+Current Node : x = 19 y = 1 speed = 2 g = 9
+Child List:
+index = 0 x = 18 y = 1 speed = 2 g = 9.5
+index = 1 x = 19 y = 2 speed = 2 g = 9.5
+Frontier List:
+index = 0 x = 19 y = 2 speed = 2 g = 9.5
+index = 1 x = 18 y = 2 speed = 2 g = 9
+index = 2 x = 17 y = 2 speed = 2 g = 8.5
+index = 3 x = 16 y = 2 speed = 2 g = 8
+index = 4 x = 15 y = 2 speed = 2 g = 7.5
+index = 5 x = 14 y = 2 speed = 2 g = 7
+index = 6 x = 13 y = 2 speed = 2 g = 6.5
+index = 7 x = 12 y = 2 speed = 2 g = 6
+index = 8 x = 11 y = 2 speed = 2 g = 5.5
+index = 9 x = 10 y = 2 speed = 2 g = 5
+index = 10 x = 8 y = 2 speed = 2 g = 4
+index = 11 x = 7 y = 2 speed = 2 g = 3.5
+index = 12 x = 5 y = 2 speed = 2 g = 2.5
+index = 13 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 20
+Current Node : x = 19 y = 2 speed = 2 g = 9.5
+Child List:
+index = 0 x = 18 y = 2 speed = 2 g = 10
+index = 1 x = 19 y = 3 speed = 2 g = 10
+index = 2 x = 19 y = 1 speed = 2 g = 10
+Frontier List:
+index = 0 x = 19 y = 3 speed = 2 g = 10
+index = 1 x = 18 y = 2 speed = 2 g = 9
+index = 2 x = 17 y = 2 speed = 2 g = 8.5
+index = 3 x = 16 y = 2 speed = 2 g = 8
+index = 4 x = 15 y = 2 speed = 2 g = 7.5
+index = 5 x = 14 y = 2 speed = 2 g = 7
+index = 6 x = 13 y = 2 speed = 2 g = 6.5
+index = 7 x = 12 y = 2 speed = 2 g = 6
+index = 8 x = 11 y = 2 speed = 2 g = 5.5
+index = 9 x = 10 y = 2 speed = 2 g = 5
+index = 10 x = 8 y = 2 speed = 2 g = 4
+index = 11 x = 7 y = 2 speed = 2 g = 3.5
+index = 12 x = 5 y = 2 speed = 2 g = 2.5
+index = 13 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 21
+Current Node : x = 19 y = 3 speed = 2 g = 10
+Child List:
+index = 0 x = 18 y = 3 speed = 2 g = 10.5
+index = 1 x = 19 y = 2 speed = 2 g = 10.5
+Frontier List:
+index = 0 x = 18 y = 3 speed = 2 g = 10.5
+index = 1 x = 18 y = 2 speed = 2 g = 9
+index = 2 x = 17 y = 2 speed = 2 g = 8.5
+index = 3 x = 16 y = 2 speed = 2 g = 8
+index = 4 x = 15 y = 2 speed = 2 g = 7.5
+index = 5 x = 14 y = 2 speed = 2 g = 7
+index = 6 x = 13 y = 2 speed = 2 g = 6.5
+index = 7 x = 12 y = 2 speed = 2 g = 6
+index = 8 x = 11 y = 2 speed = 2 g = 5.5
+index = 9 x = 10 y = 2 speed = 2 g = 5
+index = 10 x = 8 y = 2 speed = 2 g = 4
+index = 11 x = 7 y = 2 speed = 2 g = 3.5
+index = 12 x = 5 y = 2 speed = 2 g = 2.5
+index = 13 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 22
+Current Node : x = 18 y = 3 speed = 2 g = 10.5
+Child List:
+index = 0 x = 19 y = 3 speed = 2 g = 11
+index = 1 x = 18 y = 2 speed = 2 g = 11
+Frontier List:
+index = 0 x = 18 y = 2 speed = 2 g = 9
+index = 1 x = 17 y = 2 speed = 2 g = 8.5
+index = 2 x = 16 y = 2 speed = 2 g = 8
+index = 3 x = 15 y = 2 speed = 2 g = 7.5
+index = 4 x = 14 y = 2 speed = 2 g = 7
+index = 5 x = 13 y = 2 speed = 2 g = 6.5
+index = 6 x = 12 y = 2 speed = 2 g = 6
+index = 7 x = 11 y = 2 speed = 2 g = 5.5
+index = 8 x = 10 y = 2 speed = 2 g = 5
+index = 9 x = 8 y = 2 speed = 2 g = 4
+index = 10 x = 7 y = 2 speed = 2 g = 3.5
+index = 11 x = 5 y = 2 speed = 2 g = 2.5
+index = 12 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 23
+Current Node : x = 18 y = 2 speed = 2 g = 9
+Child List:
+index = 0 x = 17 y = 2 speed = 2 g = 9.5
+index = 1 x = 18 y = 3 speed = 2 g = 9.5
+index = 2 x = 19 y = 2 speed = 2 g = 9.5
+index = 3 x = 18 y = 1 speed = 2 g = 9.5
+Frontier List:
+index = 0 x = 17 y = 2 speed = 2 g = 8.5
+index = 1 x = 16 y = 2 speed = 2 g = 8
+index = 2 x = 15 y = 2 speed = 2 g = 7.5
+index = 3 x = 14 y = 2 speed = 2 g = 7
+index = 4 x = 13 y = 2 speed = 2 g = 6.5
+index = 5 x = 12 y = 2 speed = 2 g = 6
+index = 6 x = 11 y = 2 speed = 2 g = 5.5
+index = 7 x = 10 y = 2 speed = 2 g = 5
+index = 8 x = 8 y = 2 speed = 2 g = 4
+index = 9 x = 7 y = 2 speed = 2 g = 3.5
+index = 10 x = 5 y = 2 speed = 2 g = 2.5
+index = 11 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 24
+Current Node : x = 17 y = 2 speed = 2 g = 8.5
+Child List:
+index = 0 x = 16 y = 2 speed = 2 g = 9
+index = 1 x = 18 y = 2 speed = 2 g = 9
+index = 2 x = 17 y = 1 speed = 2 g = 9
+Frontier List:
+index = 0 x = 16 y = 2 speed = 2 g = 8
+index = 1 x = 15 y = 2 speed = 2 g = 7.5
+index = 2 x = 14 y = 2 speed = 2 g = 7
+index = 3 x = 13 y = 2 speed = 2 g = 6.5
+index = 4 x = 12 y = 2 speed = 2 g = 6
+index = 5 x = 11 y = 2 speed = 2 g = 5.5
+index = 6 x = 10 y = 2 speed = 2 g = 5
+index = 7 x = 8 y = 2 speed = 2 g = 4
+index = 8 x = 7 y = 2 speed = 2 g = 3.5
+index = 9 x = 5 y = 2 speed = 2 g = 2.5
+index = 10 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 25
+Current Node : x = 16 y = 2 speed = 2 g = 8
+Child List:
+index = 0 x = 15 y = 2 speed = 2 g = 8.5
+index = 1 x = 17 y = 2 speed = 2 g = 8.5
+index = 2 x = 16 y = 1 speed = 2 g = 8.5
+Frontier List:
+index = 0 x = 15 y = 2 speed = 2 g = 7.5
+index = 1 x = 14 y = 2 speed = 2 g = 7
+index = 2 x = 13 y = 2 speed = 2 g = 6.5
+index = 3 x = 12 y = 2 speed = 2 g = 6
+index = 4 x = 11 y = 2 speed = 2 g = 5.5
+index = 5 x = 10 y = 2 speed = 2 g = 5
+index = 6 x = 8 y = 2 speed = 2 g = 4
+index = 7 x = 7 y = 2 speed = 2 g = 3.5
+index = 8 x = 5 y = 2 speed = 2 g = 2.5
+index = 9 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 26
+Current Node : x = 15 y = 2 speed = 2 g = 7.5
+Child List:
+index = 0 x = 14 y = 2 speed = 2 g = 8
+index = 1 x = 15 y = 3 speed = 2 g = 8
+index = 2 x = 16 y = 2 speed = 2 g = 8
+index = 3 x = 15 y = 1 speed = 2 g = 8
+Frontier List:
+index = 0 x = 15 y = 3 speed = 2 g = 8
+index = 1 x = 14 y = 2 speed = 2 g = 7
+index = 2 x = 13 y = 2 speed = 2 g = 6.5
+index = 3 x = 12 y = 2 speed = 2 g = 6
+index = 4 x = 11 y = 2 speed = 2 g = 5.5
+index = 5 x = 10 y = 2 speed = 2 g = 5
+index = 6 x = 8 y = 2 speed = 2 g = 4
+index = 7 x = 7 y = 2 speed = 2 g = 3.5
+index = 8 x = 5 y = 2 speed = 2 g = 2.5
+index = 9 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 27
+Current Node : x = 15 y = 3 speed = 2 g = 8
+Child List:
+index = 0 x = 14 y = 3 speed = 2 g = 8.5
+index = 1 x = 15 y = 4 speed = 2 g = 8.5
+index = 2 x = 15 y = 2 speed = 2 g = 8.5
+Frontier List:
+index = 0 x = 15 y = 4 speed = 2 g = 8.5
+index = 1 x = 14 y = 3 speed = 2 g = 8.5
+index = 2 x = 14 y = 2 speed = 2 g = 7
+index = 3 x = 13 y = 2 speed = 2 g = 6.5
+index = 4 x = 12 y = 2 speed = 2 g = 6
+index = 5 x = 11 y = 2 speed = 2 g = 5.5
+index = 6 x = 10 y = 2 speed = 2 g = 5
+index = 7 x = 8 y = 2 speed = 2 g = 4
+index = 8 x = 7 y = 2 speed = 2 g = 3.5
+index = 9 x = 5 y = 2 speed = 2 g = 2.5
+index = 10 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 28
+Current Node : x = 15 y = 4 speed = 2 g = 8.5
+Child List:
+index = 0 x = 14 y = 4 speed = 2 g = 9
+index = 1 x = 15 y = 5 speed = 2 g = 9
+index = 2 x = 15 y = 3 speed = 2 g = 9
+Frontier List:
+index = 0 x = 15 y = 5 speed = 2 g = 9
+index = 1 x = 14 y = 4 speed = 2 g = 9
+index = 2 x = 14 y = 3 speed = 2 g = 8.5
+index = 3 x = 14 y = 2 speed = 2 g = 7
+index = 4 x = 13 y = 2 speed = 2 g = 6.5
+index = 5 x = 12 y = 2 speed = 2 g = 6
+index = 6 x = 11 y = 2 speed = 2 g = 5.5
+index = 7 x = 10 y = 2 speed = 2 g = 5
+index = 8 x = 8 y = 2 speed = 2 g = 4
+index = 9 x = 7 y = 2 speed = 2 g = 3.5
+index = 10 x = 5 y = 2 speed = 2 g = 2.5
+index = 11 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 29
+Current Node : x = 15 y = 5 speed = 2 g = 9
+Child List:
+index = 0 x = 14 y = 5 speed = 2 g = 9.5
+index = 1 x = 15 y = 6 speed = 2 g = 9.5
+index = 2 x = 16 y = 5 speed = 2 g = 9.5
+index = 3 x = 15 y = 4 speed = 2 g = 9.5
+Frontier List:
+index = 0 x = 16 y = 5 speed = 2 g = 9.5
+index = 1 x = 15 y = 6 speed = 2 g = 9.5
+index = 2 x = 14 y = 5 speed = 2 g = 9.5
+index = 3 x = 14 y = 4 speed = 2 g = 9
+index = 4 x = 14 y = 3 speed = 2 g = 8.5
+index = 5 x = 14 y = 2 speed = 2 g = 7
+index = 6 x = 13 y = 2 speed = 2 g = 6.5
+index = 7 x = 12 y = 2 speed = 2 g = 6
+index = 8 x = 11 y = 2 speed = 2 g = 5.5
+index = 9 x = 10 y = 2 speed = 2 g = 5
+index = 10 x = 8 y = 2 speed = 2 g = 4
+index = 11 x = 7 y = 2 speed = 2 g = 3.5
+index = 12 x = 5 y = 2 speed = 2 g = 2.5
+index = 13 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 30
+Current Node : x = 16 y = 5 speed = 2 g = 9.5
+Child List:
+index = 0 x = 15 y = 5 speed = 2 g = 10
+index = 1 x = 16 y = 6 speed = 2 g = 10
+index = 2 x = 17 y = 5 speed = 2 g = 10
+Frontier List:
+index = 0 x = 17 y = 5 speed = 2 g = 10
+index = 1 x = 16 y = 6 speed = 2 g = 10
+index = 2 x = 15 y = 6 speed = 2 g = 9.5
+index = 3 x = 14 y = 5 speed = 2 g = 9.5
+index = 4 x = 14 y = 4 speed = 2 g = 9
+index = 5 x = 14 y = 3 speed = 2 g = 8.5
+index = 6 x = 14 y = 2 speed = 2 g = 7
+index = 7 x = 13 y = 2 speed = 2 g = 6.5
+index = 8 x = 12 y = 2 speed = 2 g = 6
+index = 9 x = 11 y = 2 speed = 2 g = 5.5
+index = 10 x = 10 y = 2 speed = 2 g = 5
+index = 11 x = 8 y = 2 speed = 2 g = 4
+index = 12 x = 7 y = 2 speed = 2 g = 3.5
+index = 13 x = 5 y = 2 speed = 2 g = 2.5
+index = 14 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 31
+Current Node : x = 17 y = 5 speed = 2 g = 10
+Child List:
+index = 0 x = 16 y = 5 speed = 2 g = 10.5
+index = 1 x = 17 y = 6 speed = 2 g = 10.5
+index = 2 x = 18 y = 5 speed = 2 g = 10.5
+Frontier List:
+index = 0 x = 18 y = 5 speed = 2 g = 10.5
+index = 1 x = 17 y = 6 speed = 2 g = 10.5
+index = 2 x = 16 y = 6 speed = 2 g = 10
+index = 3 x = 15 y = 6 speed = 2 g = 9.5
+index = 4 x = 14 y = 5 speed = 2 g = 9.5
+index = 5 x = 14 y = 4 speed = 2 g = 9
+index = 6 x = 14 y = 3 speed = 2 g = 8.5
+index = 7 x = 14 y = 2 speed = 2 g = 7
+index = 8 x = 13 y = 2 speed = 2 g = 6.5
+index = 9 x = 12 y = 2 speed = 2 g = 6
+index = 10 x = 11 y = 2 speed = 2 g = 5.5
+index = 11 x = 10 y = 2 speed = 2 g = 5
+index = 12 x = 8 y = 2 speed = 2 g = 4
+index = 13 x = 7 y = 2 speed = 2 g = 3.5
+index = 14 x = 5 y = 2 speed = 2 g = 2.5
+index = 15 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 32
+Current Node : x = 18 y = 5 speed = 2 g = 10.5
+Child List:
+index = 0 x = 17 y = 5 speed = 2 g = 11
+index = 1 x = 18 y = 6 speed = 2 g = 11
+index = 2 x = 19 y = 5 speed = 2 g = 11
+Frontier List:
+index = 0 x = 19 y = 5 speed = 2 g = 11
+index = 1 x = 18 y = 6 speed = 2 g = 11
+index = 2 x = 17 y = 6 speed = 2 g = 10.5
+index = 3 x = 16 y = 6 speed = 2 g = 10
+index = 4 x = 15 y = 6 speed = 2 g = 9.5
+index = 5 x = 14 y = 5 speed = 2 g = 9.5
+index = 6 x = 14 y = 4 speed = 2 g = 9
+index = 7 x = 14 y = 3 speed = 2 g = 8.5
+index = 8 x = 14 y = 2 speed = 2 g = 7
+index = 9 x = 13 y = 2 speed = 2 g = 6.5
+index = 10 x = 12 y = 2 speed = 2 g = 6
+index = 11 x = 11 y = 2 speed = 2 g = 5.5
+index = 12 x = 10 y = 2 speed = 2 g = 5
+index = 13 x = 8 y = 2 speed = 2 g = 4
+index = 14 x = 7 y = 2 speed = 2 g = 3.5
+index = 15 x = 5 y = 2 speed = 2 g = 2.5
+index = 16 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 33
+Current Node : x = 19 y = 5 speed = 2 g = 11
+Child List:
+index = 0 x = 18 y = 5 speed = 2 g = 11.5
+index = 1 x = 19 y = 6 speed = 2 g = 11.5
+Frontier List:
+index = 0 x = 19 y = 6 speed = 2 g = 11.5
+index = 1 x = 18 y = 6 speed = 2 g = 11
+index = 2 x = 17 y = 6 speed = 2 g = 10.5
+index = 3 x = 16 y = 6 speed = 2 g = 10
+index = 4 x = 15 y = 6 speed = 2 g = 9.5
+index = 5 x = 14 y = 5 speed = 2 g = 9.5
+index = 6 x = 14 y = 4 speed = 2 g = 9
+index = 7 x = 14 y = 3 speed = 2 g = 8.5
+index = 8 x = 14 y = 2 speed = 2 g = 7
+index = 9 x = 13 y = 2 speed = 2 g = 6.5
+index = 10 x = 12 y = 2 speed = 2 g = 6
+index = 11 x = 11 y = 2 speed = 2 g = 5.5
+index = 12 x = 10 y = 2 speed = 2 g = 5
+index = 13 x = 8 y = 2 speed = 2 g = 4
+index = 14 x = 7 y = 2 speed = 2 g = 3.5
+index = 15 x = 5 y = 2 speed = 2 g = 2.5
+index = 16 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 34
+Current Node : x = 19 y = 6 speed = 2 g = 11.5
+Child List:
+index = 0 x = 18 y = 6 speed = 2 g = 12
+index = 1 x = 19 y = 7 speed = 2 g = 12
+index = 2 x = 19 y = 5 speed = 2 g = 12
+Frontier List:
+index = 0 x = 19 y = 7 speed = 2 g = 12
+index = 1 x = 18 y = 6 speed = 2 g = 11
+index = 2 x = 17 y = 6 speed = 2 g = 10.5
+index = 3 x = 16 y = 6 speed = 2 g = 10
+index = 4 x = 15 y = 6 speed = 2 g = 9.5
+index = 5 x = 14 y = 5 speed = 2 g = 9.5
+index = 6 x = 14 y = 4 speed = 2 g = 9
+index = 7 x = 14 y = 3 speed = 2 g = 8.5
+index = 8 x = 14 y = 2 speed = 2 g = 7
+index = 9 x = 13 y = 2 speed = 2 g = 6.5
+index = 10 x = 12 y = 2 speed = 2 g = 6
+index = 11 x = 11 y = 2 speed = 2 g = 5.5
+index = 12 x = 10 y = 2 speed = 2 g = 5
+index = 13 x = 8 y = 2 speed = 2 g = 4
+index = 14 x = 7 y = 2 speed = 2 g = 3.5
+index = 15 x = 5 y = 2 speed = 2 g = 2.5
+index = 16 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 35
+Current Node : x = 19 y = 7 speed = 2 g = 12
+Child List:
+index = 0 x = 18 y = 7 speed = 2 g = 12.5
+index = 1 x = 19 y = 8 speed = 2 g = 12.5
+index = 2 x = 19 y = 6 speed = 2 g = 12.5
+Frontier List:
+index = 0 x = 19 y = 8 speed = 2 g = 12.5
+index = 1 x = 18 y = 7 speed = 2 g = 12.5
+index = 2 x = 18 y = 6 speed = 2 g = 11
+index = 3 x = 17 y = 6 speed = 2 g = 10.5
+index = 4 x = 16 y = 6 speed = 2 g = 10
+index = 5 x = 15 y = 6 speed = 2 g = 9.5
+index = 6 x = 14 y = 5 speed = 2 g = 9.5
+index = 7 x = 14 y = 4 speed = 2 g = 9
+index = 8 x = 14 y = 3 speed = 2 g = 8.5
+index = 9 x = 14 y = 2 speed = 2 g = 7
+index = 10 x = 13 y = 2 speed = 2 g = 6.5
+index = 11 x = 12 y = 2 speed = 2 g = 6
+index = 12 x = 11 y = 2 speed = 2 g = 5.5
+index = 13 x = 10 y = 2 speed = 2 g = 5
+index = 14 x = 8 y = 2 speed = 2 g = 4
+index = 15 x = 7 y = 2 speed = 2 g = 3.5
+index = 16 x = 5 y = 2 speed = 2 g = 2.5
+index = 17 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 36
+Current Node : x = 19 y = 8 speed = 2 g = 12.5
+Child List:
+index = 0 x = 18 y = 8 speed = 2 g = 13
+index = 1 x = 19 y = 9 speed = 2 g = 13
+index = 2 x = 19 y = 7 speed = 2 g = 13
+Frontier List:
+index = 0 x = 19 y = 9 speed = 2 g = 13
+index = 1 x = 18 y = 8 speed = 2 g = 13
+index = 2 x = 18 y = 7 speed = 2 g = 12.5
+index = 3 x = 18 y = 6 speed = 2 g = 11
+index = 4 x = 17 y = 6 speed = 2 g = 10.5
+index = 5 x = 16 y = 6 speed = 2 g = 10
+index = 6 x = 15 y = 6 speed = 2 g = 9.5
+index = 7 x = 14 y = 5 speed = 2 g = 9.5
+index = 8 x = 14 y = 4 speed = 2 g = 9
+index = 9 x = 14 y = 3 speed = 2 g = 8.5
+index = 10 x = 14 y = 2 speed = 2 g = 7
+index = 11 x = 13 y = 2 speed = 2 g = 6.5
+index = 12 x = 12 y = 2 speed = 2 g = 6
+index = 13 x = 11 y = 2 speed = 2 g = 5.5
+index = 14 x = 10 y = 2 speed = 2 g = 5
+index = 15 x = 8 y = 2 speed = 2 g = 4
+index = 16 x = 7 y = 2 speed = 2 g = 3.5
+index = 17 x = 5 y = 2 speed = 2 g = 2.5
+index = 18 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 37
+Current Node : x = 19 y = 9 speed = 2 g = 13
+Child List:
+index = 0 x = 18 y = 9 speed = 2 g = 13.5
+index = 1 x = 19 y = 10 speed = 2 g = 13.5
+index = 2 x = 19 y = 8 speed = 2 g = 13.5
+Frontier List:
+index = 0 x = 19 y = 10 speed = 2 g = 13.5
+index = 1 x = 18 y = 9 speed = 2 g = 13.5
+index = 2 x = 18 y = 8 speed = 2 g = 13
+index = 3 x = 18 y = 7 speed = 2 g = 12.5
+index = 4 x = 18 y = 6 speed = 2 g = 11
+index = 5 x = 17 y = 6 speed = 2 g = 10.5
+index = 6 x = 16 y = 6 speed = 2 g = 10
+index = 7 x = 15 y = 6 speed = 2 g = 9.5
+index = 8 x = 14 y = 5 speed = 2 g = 9.5
+index = 9 x = 14 y = 4 speed = 2 g = 9
+index = 10 x = 14 y = 3 speed = 2 g = 8.5
+index = 11 x = 14 y = 2 speed = 2 g = 7
+index = 12 x = 13 y = 2 speed = 2 g = 6.5
+index = 13 x = 12 y = 2 speed = 2 g = 6
+index = 14 x = 11 y = 2 speed = 2 g = 5.5
+index = 15 x = 10 y = 2 speed = 2 g = 5
+index = 16 x = 8 y = 2 speed = 2 g = 4
+index = 17 x = 7 y = 2 speed = 2 g = 3.5
+index = 18 x = 5 y = 2 speed = 2 g = 2.5
+index = 19 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 38
+Current Node : x = 19 y = 10 speed = 2 g = 13.5
+Child List:
+index = 0 x = 18 y = 10 speed = 2 g = 14
+index = 1 x = 19 y = 11 speed = 2 g = 14
+index = 2 x = 19 y = 9 speed = 2 g = 14
+Frontier List:
+index = 0 x = 19 y = 11 speed = 2 g = 14
+index = 1 x = 18 y = 10 speed = 2 g = 14
+index = 2 x = 18 y = 9 speed = 2 g = 13.5
+index = 3 x = 18 y = 8 speed = 2 g = 13
+index = 4 x = 18 y = 7 speed = 2 g = 12.5
+index = 5 x = 18 y = 6 speed = 2 g = 11
+index = 6 x = 17 y = 6 speed = 2 g = 10.5
+index = 7 x = 16 y = 6 speed = 2 g = 10
+index = 8 x = 15 y = 6 speed = 2 g = 9.5
+index = 9 x = 14 y = 5 speed = 2 g = 9.5
+index = 10 x = 14 y = 4 speed = 2 g = 9
+index = 11 x = 14 y = 3 speed = 2 g = 8.5
+index = 12 x = 14 y = 2 speed = 2 g = 7
+index = 13 x = 13 y = 2 speed = 2 g = 6.5
+index = 14 x = 12 y = 2 speed = 2 g = 6
+index = 15 x = 11 y = 2 speed = 2 g = 5.5
+index = 16 x = 10 y = 2 speed = 2 g = 5
+index = 17 x = 8 y = 2 speed = 2 g = 4
+index = 18 x = 7 y = 2 speed = 2 g = 3.5
+index = 19 x = 5 y = 2 speed = 2 g = 2.5
+index = 20 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 39
+Current Node : x = 19 y = 11 speed = 2 g = 14
+Child List:
+index = 0 x = 18 y = 11 speed = 2 g = 14.5
+index = 1 x = 19 y = 12 speed = 2 g = 14.5
+index = 2 x = 19 y = 10 speed = 2 g = 14.5
+Frontier List:
+index = 0 x = 19 y = 12 speed = 2 g = 14.5
+index = 1 x = 18 y = 11 speed = 2 g = 14.5
+index = 2 x = 18 y = 10 speed = 2 g = 14
+index = 3 x = 18 y = 9 speed = 2 g = 13.5
+index = 4 x = 18 y = 8 speed = 2 g = 13
+index = 5 x = 18 y = 7 speed = 2 g = 12.5
+index = 6 x = 18 y = 6 speed = 2 g = 11
+index = 7 x = 17 y = 6 speed = 2 g = 10.5
+index = 8 x = 16 y = 6 speed = 2 g = 10
+index = 9 x = 15 y = 6 speed = 2 g = 9.5
+index = 10 x = 14 y = 5 speed = 2 g = 9.5
+index = 11 x = 14 y = 4 speed = 2 g = 9
+index = 12 x = 14 y = 3 speed = 2 g = 8.5
+index = 13 x = 14 y = 2 speed = 2 g = 7
+index = 14 x = 13 y = 2 speed = 2 g = 6.5
+index = 15 x = 12 y = 2 speed = 2 g = 6
+index = 16 x = 11 y = 2 speed = 2 g = 5.5
+index = 17 x = 10 y = 2 speed = 2 g = 5
+index = 18 x = 8 y = 2 speed = 2 g = 4
+index = 19 x = 7 y = 2 speed = 2 g = 3.5
+index = 20 x = 5 y = 2 speed = 2 g = 2.5
+index = 21 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 40
+Current Node : x = 19 y = 12 speed = 2 g = 14.5
+Child List:
+index = 0 x = 18 y = 12 speed = 2 g = 15
+index = 1 x = 19 y = 11 speed = 2 g = 15
+Frontier List:
+index = 0 x = 18 y = 12 speed = 2 g = 15
+index = 1 x = 18 y = 11 speed = 2 g = 14.5
+index = 2 x = 18 y = 10 speed = 2 g = 14
+index = 3 x = 18 y = 9 speed = 2 g = 13.5
+index = 4 x = 18 y = 8 speed = 2 g = 13
+index = 5 x = 18 y = 7 speed = 2 g = 12.5
+index = 6 x = 18 y = 6 speed = 2 g = 11
+index = 7 x = 17 y = 6 speed = 2 g = 10.5
+index = 8 x = 16 y = 6 speed = 2 g = 10
+index = 9 x = 15 y = 6 speed = 2 g = 9.5
+index = 10 x = 14 y = 5 speed = 2 g = 9.5
+index = 11 x = 14 y = 4 speed = 2 g = 9
+index = 12 x = 14 y = 3 speed = 2 g = 8.5
+index = 13 x = 14 y = 2 speed = 2 g = 7
+index = 14 x = 13 y = 2 speed = 2 g = 6.5
+index = 15 x = 12 y = 2 speed = 2 g = 6
+index = 16 x = 11 y = 2 speed = 2 g = 5.5
+index = 17 x = 10 y = 2 speed = 2 g = 5
+index = 18 x = 8 y = 2 speed = 2 g = 4
+index = 19 x = 7 y = 2 speed = 2 g = 3.5
+index = 20 x = 5 y = 2 speed = 2 g = 2.5
+index = 21 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 41
+Current Node : x = 18 y = 12 speed = 2 g = 15
+Child List:
+index = 0 x = 17 y = 12 speed = 2 g = 15.5
+index = 1 x = 19 y = 12 speed = 2 g = 15.5
+index = 2 x = 18 y = 11 speed = 2 g = 15.5
+Frontier List:
+index = 0 x = 17 y = 12 speed = 2 g = 15.5
+index = 1 x = 18 y = 11 speed = 2 g = 14.5
+index = 2 x = 18 y = 10 speed = 2 g = 14
+index = 3 x = 18 y = 9 speed = 2 g = 13.5
+index = 4 x = 18 y = 8 speed = 2 g = 13
+index = 5 x = 18 y = 7 speed = 2 g = 12.5
+index = 6 x = 18 y = 6 speed = 2 g = 11
+index = 7 x = 17 y = 6 speed = 2 g = 10.5
+index = 8 x = 16 y = 6 speed = 2 g = 10
+index = 9 x = 15 y = 6 speed = 2 g = 9.5
+index = 10 x = 14 y = 5 speed = 2 g = 9.5
+index = 11 x = 14 y = 4 speed = 2 g = 9
+index = 12 x = 14 y = 3 speed = 2 g = 8.5
+index = 13 x = 14 y = 2 speed = 2 g = 7
+index = 14 x = 13 y = 2 speed = 2 g = 6.5
+index = 15 x = 12 y = 2 speed = 2 g = 6
+index = 16 x = 11 y = 2 speed = 2 g = 5.5
+index = 17 x = 10 y = 2 speed = 2 g = 5
+index = 18 x = 8 y = 2 speed = 2 g = 4
+index = 19 x = 7 y = 2 speed = 2 g = 3.5
+index = 20 x = 5 y = 2 speed = 2 g = 2.5
+index = 21 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 42
+Current Node : x = 17 y = 12 speed = 2 g = 15.5
+Child List:
+index = 0 x = 16 y = 12 speed = 2 g = 16
+index = 1 x = 18 y = 12 speed = 2 g = 16
+index = 2 x = 17 y = 11 speed = 2 g = 16
+Frontier List:
+index = 0 x = 17 y = 11 speed = 2 g = 16
+index = 1 x = 16 y = 12 speed = 2 g = 16
+index = 2 x = 18 y = 11 speed = 2 g = 14.5
+index = 3 x = 18 y = 10 speed = 2 g = 14
+index = 4 x = 18 y = 9 speed = 2 g = 13.5
+index = 5 x = 18 y = 8 speed = 2 g = 13
+index = 6 x = 18 y = 7 speed = 2 g = 12.5
+index = 7 x = 18 y = 6 speed = 2 g = 11
+index = 8 x = 17 y = 6 speed = 2 g = 10.5
+index = 9 x = 16 y = 6 speed = 2 g = 10
+index = 10 x = 15 y = 6 speed = 2 g = 9.5
+index = 11 x = 14 y = 5 speed = 2 g = 9.5
+index = 12 x = 14 y = 4 speed = 2 g = 9
+index = 13 x = 14 y = 3 speed = 2 g = 8.5
+index = 14 x = 14 y = 2 speed = 2 g = 7
+index = 15 x = 13 y = 2 speed = 2 g = 6.5
+index = 16 x = 12 y = 2 speed = 2 g = 6
+index = 17 x = 11 y = 2 speed = 2 g = 5.5
+index = 18 x = 10 y = 2 speed = 2 g = 5
+index = 19 x = 8 y = 2 speed = 2 g = 4
+index = 20 x = 7 y = 2 speed = 2 g = 3.5
+index = 21 x = 5 y = 2 speed = 2 g = 2.5
+index = 22 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 43
+Current Node : x = 17 y = 11 speed = 2 g = 16
+Child List:
+index = 0 x = 16 y = 11 speed = 2 g = 16.5
+index = 1 x = 17 y = 12 speed = 2 g = 16.5
+index = 2 x = 18 y = 11 speed = 2 g = 16.5
+index = 3 x = 17 y = 10 speed = 2 g = 16.5
+Frontier List:
+index = 0 x = 17 y = 10 speed = 2 g = 16.5
+index = 1 x = 16 y = 11 speed = 2 g = 16.5
+index = 2 x = 16 y = 12 speed = 2 g = 16
+index = 3 x = 18 y = 11 speed = 2 g = 14.5
+index = 4 x = 18 y = 10 speed = 2 g = 14
+index = 5 x = 18 y = 9 speed = 2 g = 13.5
+index = 6 x = 18 y = 8 speed = 2 g = 13
+index = 7 x = 18 y = 7 speed = 2 g = 12.5
+index = 8 x = 18 y = 6 speed = 2 g = 11
+index = 9 x = 17 y = 6 speed = 2 g = 10.5
+index = 10 x = 16 y = 6 speed = 2 g = 10
+index = 11 x = 15 y = 6 speed = 2 g = 9.5
+index = 12 x = 14 y = 5 speed = 2 g = 9.5
+index = 13 x = 14 y = 4 speed = 2 g = 9
+index = 14 x = 14 y = 3 speed = 2 g = 8.5
+index = 15 x = 14 y = 2 speed = 2 g = 7
+index = 16 x = 13 y = 2 speed = 2 g = 6.5
+index = 17 x = 12 y = 2 speed = 2 g = 6
+index = 18 x = 11 y = 2 speed = 2 g = 5.5
+index = 19 x = 10 y = 2 speed = 2 g = 5
+index = 20 x = 8 y = 2 speed = 2 g = 4
+index = 21 x = 7 y = 2 speed = 2 g = 3.5
+index = 22 x = 5 y = 2 speed = 2 g = 2.5
+index = 23 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 44
+Current Node : x = 17 y = 10 speed = 2 g = 16.5
+Child List:
+index = 0 x = 16 y = 10 speed = 2 g = 17
+index = 1 x = 17 y = 11 speed = 2 g = 17
+index = 2 x = 18 y = 10 speed = 2 g = 17
+index = 3 x = 17 y = 9 speed = 2 g = 17
+Frontier List:
+index = 0 x = 17 y = 9 speed = 2 g = 17
+index = 1 x = 16 y = 10 speed = 2 g = 17
+index = 2 x = 16 y = 11 speed = 2 g = 16.5
+index = 3 x = 16 y = 12 speed = 2 g = 16
+index = 4 x = 18 y = 11 speed = 2 g = 14.5
+index = 5 x = 18 y = 10 speed = 2 g = 14
+index = 6 x = 18 y = 9 speed = 2 g = 13.5
+index = 7 x = 18 y = 8 speed = 2 g = 13
+index = 8 x = 18 y = 7 speed = 2 g = 12.5
+index = 9 x = 18 y = 6 speed = 2 g = 11
+index = 10 x = 17 y = 6 speed = 2 g = 10.5
+index = 11 x = 16 y = 6 speed = 2 g = 10
+index = 12 x = 15 y = 6 speed = 2 g = 9.5
+index = 13 x = 14 y = 5 speed = 2 g = 9.5
+index = 14 x = 14 y = 4 speed = 2 g = 9
+index = 15 x = 14 y = 3 speed = 2 g = 8.5
+index = 16 x = 14 y = 2 speed = 2 g = 7
+index = 17 x = 13 y = 2 speed = 2 g = 6.5
+index = 18 x = 12 y = 2 speed = 2 g = 6
+index = 19 x = 11 y = 2 speed = 2 g = 5.5
+index = 20 x = 10 y = 2 speed = 2 g = 5
+index = 21 x = 8 y = 2 speed = 2 g = 4
+index = 22 x = 7 y = 2 speed = 2 g = 3.5
+index = 23 x = 5 y = 2 speed = 2 g = 2.5
+index = 24 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 45
+Current Node : x = 17 y = 9 speed = 2 g = 17
+Child List:
+index = 0 x = 16 y = 9 speed = 2 g = 17.5
+index = 1 x = 17 y = 10 speed = 2 g = 17.5
+index = 2 x = 18 y = 9 speed = 2 g = 17.5
+index = 3 x = 17 y = 8 speed = 2 g = 17.5
+Frontier List:
+index = 0 x = 17 y = 8 speed = 2 g = 17.5
+index = 1 x = 16 y = 9 speed = 2 g = 17.5
+index = 2 x = 16 y = 10 speed = 2 g = 17
+index = 3 x = 16 y = 11 speed = 2 g = 16.5
+index = 4 x = 16 y = 12 speed = 2 g = 16
+index = 5 x = 18 y = 11 speed = 2 g = 14.5
+index = 6 x = 18 y = 10 speed = 2 g = 14
+index = 7 x = 18 y = 9 speed = 2 g = 13.5
+index = 8 x = 18 y = 8 speed = 2 g = 13
+index = 9 x = 18 y = 7 speed = 2 g = 12.5
+index = 10 x = 18 y = 6 speed = 2 g = 11
+index = 11 x = 17 y = 6 speed = 2 g = 10.5
+index = 12 x = 16 y = 6 speed = 2 g = 10
+index = 13 x = 15 y = 6 speed = 2 g = 9.5
+index = 14 x = 14 y = 5 speed = 2 g = 9.5
+index = 15 x = 14 y = 4 speed = 2 g = 9
+index = 16 x = 14 y = 3 speed = 2 g = 8.5
+index = 17 x = 14 y = 2 speed = 2 g = 7
+index = 18 x = 13 y = 2 speed = 2 g = 6.5
+index = 19 x = 12 y = 2 speed = 2 g = 6
+index = 20 x = 11 y = 2 speed = 2 g = 5.5
+index = 21 x = 10 y = 2 speed = 2 g = 5
+index = 22 x = 8 y = 2 speed = 2 g = 4
+index = 23 x = 7 y = 2 speed = 2 g = 3.5
+index = 24 x = 5 y = 2 speed = 2 g = 2.5
+index = 25 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 46
+Current Node : x = 17 y = 8 speed = 2 g = 17.5
+Child List:
+index = 0 x = 16 y = 8 speed = 2 g = 18
+index = 1 x = 17 y = 9 speed = 2 g = 18
+index = 2 x = 18 y = 8 speed = 2 g = 18
+index = 3 x = 17 y = 7 speed = 2 g = 18
+Frontier List:
+index = 0 x = 17 y = 7 speed = 2 g = 18
+index = 1 x = 16 y = 8 speed = 2 g = 18
+index = 2 x = 16 y = 9 speed = 2 g = 17.5
+index = 3 x = 16 y = 10 speed = 2 g = 17
+index = 4 x = 16 y = 11 speed = 2 g = 16.5
+index = 5 x = 16 y = 12 speed = 2 g = 16
+index = 6 x = 18 y = 11 speed = 2 g = 14.5
+index = 7 x = 18 y = 10 speed = 2 g = 14
+index = 8 x = 18 y = 9 speed = 2 g = 13.5
+index = 9 x = 18 y = 8 speed = 2 g = 13
+index = 10 x = 18 y = 7 speed = 2 g = 12.5
+index = 11 x = 18 y = 6 speed = 2 g = 11
+index = 12 x = 17 y = 6 speed = 2 g = 10.5
+index = 13 x = 16 y = 6 speed = 2 g = 10
+index = 14 x = 15 y = 6 speed = 2 g = 9.5
+index = 15 x = 14 y = 5 speed = 2 g = 9.5
+index = 16 x = 14 y = 4 speed = 2 g = 9
+index = 17 x = 14 y = 3 speed = 2 g = 8.5
+index = 18 x = 14 y = 2 speed = 2 g = 7
+index = 19 x = 13 y = 2 speed = 2 g = 6.5
+index = 20 x = 12 y = 2 speed = 2 g = 6
+index = 21 x = 11 y = 2 speed = 2 g = 5.5
+index = 22 x = 10 y = 2 speed = 2 g = 5
+index = 23 x = 8 y = 2 speed = 2 g = 4
+index = 24 x = 7 y = 2 speed = 2 g = 3.5
+index = 25 x = 5 y = 2 speed = 2 g = 2.5
+index = 26 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 47
+Current Node : x = 17 y = 7 speed = 2 g = 18
+Child List:
+index = 0 x = 16 y = 7 speed = 2 g = 18.5
+index = 1 x = 17 y = 8 speed = 2 g = 18.5
+index = 2 x = 18 y = 7 speed = 2 g = 18.5
+index = 3 x = 17 y = 6 speed = 2 g = 18.5
+Frontier List:
+index = 0 x = 16 y = 7 speed = 2 g = 18.5
+index = 1 x = 16 y = 8 speed = 2 g = 18
+index = 2 x = 16 y = 9 speed = 2 g = 17.5
+index = 3 x = 16 y = 10 speed = 2 g = 17
+index = 4 x = 16 y = 11 speed = 2 g = 16.5
+index = 5 x = 16 y = 12 speed = 2 g = 16
+index = 6 x = 18 y = 11 speed = 2 g = 14.5
+index = 7 x = 18 y = 10 speed = 2 g = 14
+index = 8 x = 18 y = 9 speed = 2 g = 13.5
+index = 9 x = 18 y = 8 speed = 2 g = 13
+index = 10 x = 18 y = 7 speed = 2 g = 12.5
+index = 11 x = 18 y = 6 speed = 2 g = 11
+index = 12 x = 17 y = 6 speed = 2 g = 10.5
+index = 13 x = 16 y = 6 speed = 2 g = 10
+index = 14 x = 15 y = 6 speed = 2 g = 9.5
+index = 15 x = 14 y = 5 speed = 2 g = 9.5
+index = 16 x = 14 y = 4 speed = 2 g = 9
+index = 17 x = 14 y = 3 speed = 2 g = 8.5
+index = 18 x = 14 y = 2 speed = 2 g = 7
+index = 19 x = 13 y = 2 speed = 2 g = 6.5
+index = 20 x = 12 y = 2 speed = 2 g = 6
+index = 21 x = 11 y = 2 speed = 2 g = 5.5
+index = 22 x = 10 y = 2 speed = 2 g = 5
+index = 23 x = 8 y = 2 speed = 2 g = 4
+index = 24 x = 7 y = 2 speed = 2 g = 3.5
+index = 25 x = 5 y = 2 speed = 2 g = 2.5
+index = 26 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 48
+Current Node : x = 16 y = 7 speed = 2 g = 18.5
+Child List:
+index = 0 x = 15 y = 7 speed = 2 g = 19
+index = 1 x = 16 y = 8 speed = 2 g = 19
+index = 2 x = 17 y = 7 speed = 2 g = 19
+index = 3 x = 16 y = 6 speed = 2 g = 19
+Frontier List:
+index = 0 x = 15 y = 7 speed = 2 g = 19
+index = 1 x = 16 y = 8 speed = 2 g = 18
+index = 2 x = 16 y = 9 speed = 2 g = 17.5
+index = 3 x = 16 y = 10 speed = 2 g = 17
+index = 4 x = 16 y = 11 speed = 2 g = 16.5
+index = 5 x = 16 y = 12 speed = 2 g = 16
+index = 6 x = 18 y = 11 speed = 2 g = 14.5
+index = 7 x = 18 y = 10 speed = 2 g = 14
+index = 8 x = 18 y = 9 speed = 2 g = 13.5
+index = 9 x = 18 y = 8 speed = 2 g = 13
+index = 10 x = 18 y = 7 speed = 2 g = 12.5
+index = 11 x = 18 y = 6 speed = 2 g = 11
+index = 12 x = 17 y = 6 speed = 2 g = 10.5
+index = 13 x = 16 y = 6 speed = 2 g = 10
+index = 14 x = 15 y = 6 speed = 2 g = 9.5
+index = 15 x = 14 y = 5 speed = 2 g = 9.5
+index = 16 x = 14 y = 4 speed = 2 g = 9
+index = 17 x = 14 y = 3 speed = 2 g = 8.5
+index = 18 x = 14 y = 2 speed = 2 g = 7
+index = 19 x = 13 y = 2 speed = 2 g = 6.5
+index = 20 x = 12 y = 2 speed = 2 g = 6
+index = 21 x = 11 y = 2 speed = 2 g = 5.5
+index = 22 x = 10 y = 2 speed = 2 g = 5
+index = 23 x = 8 y = 2 speed = 2 g = 4
+index = 24 x = 7 y = 2 speed = 2 g = 3.5
+index = 25 x = 5 y = 2 speed = 2 g = 2.5
+index = 26 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 49
+Current Node : x = 15 y = 7 speed = 2 g = 19
+Child List:
+index = 0 x = 14 y = 7 speed = 2 g = 19.5
+index = 1 x = 15 y = 8 speed = 2 g = 19.5
+index = 2 x = 16 y = 7 speed = 2 g = 19.5
+index = 3 x = 15 y = 6 speed = 2 g = 19.5
+Frontier List:
+index = 0 x = 15 y = 8 speed = 2 g = 19.5
+index = 1 x = 14 y = 7 speed = 2 g = 19.5
+index = 2 x = 16 y = 8 speed = 2 g = 18
+index = 3 x = 16 y = 9 speed = 2 g = 17.5
+index = 4 x = 16 y = 10 speed = 2 g = 17
+index = 5 x = 16 y = 11 speed = 2 g = 16.5
+index = 6 x = 16 y = 12 speed = 2 g = 16
+index = 7 x = 18 y = 11 speed = 2 g = 14.5
+index = 8 x = 18 y = 10 speed = 2 g = 14
+index = 9 x = 18 y = 9 speed = 2 g = 13.5
+index = 10 x = 18 y = 8 speed = 2 g = 13
+index = 11 x = 18 y = 7 speed = 2 g = 12.5
+index = 12 x = 18 y = 6 speed = 2 g = 11
+index = 13 x = 17 y = 6 speed = 2 g = 10.5
+index = 14 x = 16 y = 6 speed = 2 g = 10
+index = 15 x = 15 y = 6 speed = 2 g = 9.5
+index = 16 x = 14 y = 5 speed = 2 g = 9.5
+index = 17 x = 14 y = 4 speed = 2 g = 9
+index = 18 x = 14 y = 3 speed = 2 g = 8.5
+index = 19 x = 14 y = 2 speed = 2 g = 7
+index = 20 x = 13 y = 2 speed = 2 g = 6.5
+index = 21 x = 12 y = 2 speed = 2 g = 6
+index = 22 x = 11 y = 2 speed = 2 g = 5.5
+index = 23 x = 10 y = 2 speed = 2 g = 5
+index = 24 x = 8 y = 2 speed = 2 g = 4
+index = 25 x = 7 y = 2 speed = 2 g = 3.5
+index = 26 x = 5 y = 2 speed = 2 g = 2.5
+index = 27 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 50
+Current Node : x = 15 y = 8 speed = 2 g = 19.5
+Child List:
+index = 0 x = 14 y = 8 speed = 2 g = 20
+index = 1 x = 15 y = 9 speed = 2 g = 20
+index = 2 x = 16 y = 8 speed = 2 g = 20
+index = 3 x = 15 y = 7 speed = 2 g = 20
+Frontier List:
+index = 0 x = 15 y = 9 speed = 2 g = 20
+index = 1 x = 14 y = 8 speed = 2 g = 20
+index = 2 x = 14 y = 7 speed = 2 g = 19.5
+index = 3 x = 16 y = 8 speed = 2 g = 18
+index = 4 x = 16 y = 9 speed = 2 g = 17.5
+index = 5 x = 16 y = 10 speed = 2 g = 17
+index = 6 x = 16 y = 11 speed = 2 g = 16.5
+index = 7 x = 16 y = 12 speed = 2 g = 16
+index = 8 x = 18 y = 11 speed = 2 g = 14.5
+index = 9 x = 18 y = 10 speed = 2 g = 14
+index = 10 x = 18 y = 9 speed = 2 g = 13.5
+index = 11 x = 18 y = 8 speed = 2 g = 13
+index = 12 x = 18 y = 7 speed = 2 g = 12.5
+index = 13 x = 18 y = 6 speed = 2 g = 11
+index = 14 x = 17 y = 6 speed = 2 g = 10.5
+index = 15 x = 16 y = 6 speed = 2 g = 10
+index = 16 x = 15 y = 6 speed = 2 g = 9.5
+index = 17 x = 14 y = 5 speed = 2 g = 9.5
+index = 18 x = 14 y = 4 speed = 2 g = 9
+index = 19 x = 14 y = 3 speed = 2 g = 8.5
+index = 20 x = 14 y = 2 speed = 2 g = 7
+index = 21 x = 13 y = 2 speed = 2 g = 6.5
+index = 22 x = 12 y = 2 speed = 2 g = 6
+index = 23 x = 11 y = 2 speed = 2 g = 5.5
+index = 24 x = 10 y = 2 speed = 2 g = 5
+index = 25 x = 8 y = 2 speed = 2 g = 4
+index = 26 x = 7 y = 2 speed = 2 g = 3.5
+index = 27 x = 5 y = 2 speed = 2 g = 2.5
+index = 28 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 51
+Current Node : x = 15 y = 9 speed = 2 g = 20
+Child List:
+index = 0 x = 14 y = 9 speed = 2 g = 20.5
+index = 1 x = 15 y = 10 speed = 2 g = 20.5
+index = 2 x = 16 y = 9 speed = 2 g = 20.5
+index = 3 x = 15 y = 8 speed = 2 g = 20.5
+Frontier List:
+index = 0 x = 15 y = 10 speed = 2 g = 20.5
+index = 1 x = 14 y = 9 speed = 2 g = 20.5
+index = 2 x = 14 y = 8 speed = 2 g = 20
+index = 3 x = 14 y = 7 speed = 2 g = 19.5
+index = 4 x = 16 y = 8 speed = 2 g = 18
+index = 5 x = 16 y = 9 speed = 2 g = 17.5
+index = 6 x = 16 y = 10 speed = 2 g = 17
+index = 7 x = 16 y = 11 speed = 2 g = 16.5
+index = 8 x = 16 y = 12 speed = 2 g = 16
+index = 9 x = 18 y = 11 speed = 2 g = 14.5
+index = 10 x = 18 y = 10 speed = 2 g = 14
+index = 11 x = 18 y = 9 speed = 2 g = 13.5
+index = 12 x = 18 y = 8 speed = 2 g = 13
+index = 13 x = 18 y = 7 speed = 2 g = 12.5
+index = 14 x = 18 y = 6 speed = 2 g = 11
+index = 15 x = 17 y = 6 speed = 2 g = 10.5
+index = 16 x = 16 y = 6 speed = 2 g = 10
+index = 17 x = 15 y = 6 speed = 2 g = 9.5
+index = 18 x = 14 y = 5 speed = 2 g = 9.5
+index = 19 x = 14 y = 4 speed = 2 g = 9
+index = 20 x = 14 y = 3 speed = 2 g = 8.5
+index = 21 x = 14 y = 2 speed = 2 g = 7
+index = 22 x = 13 y = 2 speed = 2 g = 6.5
+index = 23 x = 12 y = 2 speed = 2 g = 6
+index = 24 x = 11 y = 2 speed = 2 g = 5.5
+index = 25 x = 10 y = 2 speed = 2 g = 5
+index = 26 x = 8 y = 2 speed = 2 g = 4
+index = 27 x = 7 y = 2 speed = 2 g = 3.5
+index = 28 x = 5 y = 2 speed = 2 g = 2.5
+index = 29 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 52
+Current Node : x = 15 y = 10 speed = 2 g = 20.5
+Child List:
+index = 0 x = 14 y = 10 speed = 2 g = 21
+index = 1 x = 15 y = 11 speed = 2 g = 21
+index = 2 x = 16 y = 10 speed = 2 g = 21
+index = 3 x = 15 y = 9 speed = 2 g = 21
+Frontier List:
+index = 0 x = 15 y = 11 speed = 2 g = 21
+index = 1 x = 14 y = 10 speed = 2 g = 21
+index = 2 x = 14 y = 9 speed = 2 g = 20.5
+index = 3 x = 14 y = 8 speed = 2 g = 20
+index = 4 x = 14 y = 7 speed = 2 g = 19.5
+index = 5 x = 16 y = 8 speed = 2 g = 18
+index = 6 x = 16 y = 9 speed = 2 g = 17.5
+index = 7 x = 16 y = 10 speed = 2 g = 17
+index = 8 x = 16 y = 11 speed = 2 g = 16.5
+index = 9 x = 16 y = 12 speed = 2 g = 16
+index = 10 x = 18 y = 11 speed = 2 g = 14.5
+index = 11 x = 18 y = 10 speed = 2 g = 14
+index = 12 x = 18 y = 9 speed = 2 g = 13.5
+index = 13 x = 18 y = 8 speed = 2 g = 13
+index = 14 x = 18 y = 7 speed = 2 g = 12.5
+index = 15 x = 18 y = 6 speed = 2 g = 11
+index = 16 x = 17 y = 6 speed = 2 g = 10.5
+index = 17 x = 16 y = 6 speed = 2 g = 10
+index = 18 x = 15 y = 6 speed = 2 g = 9.5
+index = 19 x = 14 y = 5 speed = 2 g = 9.5
+index = 20 x = 14 y = 4 speed = 2 g = 9
+index = 21 x = 14 y = 3 speed = 2 g = 8.5
+index = 22 x = 14 y = 2 speed = 2 g = 7
+index = 23 x = 13 y = 2 speed = 2 g = 6.5
+index = 24 x = 12 y = 2 speed = 2 g = 6
+index = 25 x = 11 y = 2 speed = 2 g = 5.5
+index = 26 x = 10 y = 2 speed = 2 g = 5
+index = 27 x = 8 y = 2 speed = 2 g = 4
+index = 28 x = 7 y = 2 speed = 2 g = 3.5
+index = 29 x = 5 y = 2 speed = 2 g = 2.5
+index = 30 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 53
+Current Node : x = 15 y = 11 speed = 2 g = 21
+Child List:
+index = 0 x = 14 y = 11 speed = 2 g = 21.5
+index = 1 x = 15 y = 12 speed = 2 g = 21.5
+index = 2 x = 16 y = 11 speed = 2 g = 21.5
+index = 3 x = 15 y = 10 speed = 2 g = 21.5
+Frontier List:
+index = 0 x = 15 y = 12 speed = 2 g = 21.5
+index = 1 x = 14 y = 11 speed = 2 g = 21.5
+index = 2 x = 14 y = 10 speed = 2 g = 21
+index = 3 x = 14 y = 9 speed = 2 g = 20.5
+index = 4 x = 14 y = 8 speed = 2 g = 20
+index = 5 x = 14 y = 7 speed = 2 g = 19.5
+index = 6 x = 16 y = 8 speed = 2 g = 18
+index = 7 x = 16 y = 9 speed = 2 g = 17.5
+index = 8 x = 16 y = 10 speed = 2 g = 17
+index = 9 x = 16 y = 11 speed = 2 g = 16.5
+index = 10 x = 16 y = 12 speed = 2 g = 16
+index = 11 x = 18 y = 11 speed = 2 g = 14.5
+index = 12 x = 18 y = 10 speed = 2 g = 14
+index = 13 x = 18 y = 9 speed = 2 g = 13.5
+index = 14 x = 18 y = 8 speed = 2 g = 13
+index = 15 x = 18 y = 7 speed = 2 g = 12.5
+index = 16 x = 18 y = 6 speed = 2 g = 11
+index = 17 x = 17 y = 6 speed = 2 g = 10.5
+index = 18 x = 16 y = 6 speed = 2 g = 10
+index = 19 x = 15 y = 6 speed = 2 g = 9.5
+index = 20 x = 14 y = 5 speed = 2 g = 9.5
+index = 21 x = 14 y = 4 speed = 2 g = 9
+index = 22 x = 14 y = 3 speed = 2 g = 8.5
+index = 23 x = 14 y = 2 speed = 2 g = 7
+index = 24 x = 13 y = 2 speed = 2 g = 6.5
+index = 25 x = 12 y = 2 speed = 2 g = 6
+index = 26 x = 11 y = 2 speed = 2 g = 5.5
+index = 27 x = 10 y = 2 speed = 2 g = 5
+index = 28 x = 8 y = 2 speed = 2 g = 4
+index = 29 x = 7 y = 2 speed = 2 g = 3.5
+index = 30 x = 5 y = 2 speed = 2 g = 2.5
+index = 31 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 54
+Current Node : x = 15 y = 12 speed = 2 g = 21.5
+Child List:
+index = 0 x = 14 y = 12 speed = 2 g = 22
+index = 1 x = 16 y = 12 speed = 2 g = 22
+index = 2 x = 15 y = 11 speed = 2 g = 22
+Frontier List:
+index = 0 x = 14 y = 12 speed = 2 g = 22
+index = 1 x = 14 y = 11 speed = 2 g = 21.5
+index = 2 x = 14 y = 10 speed = 2 g = 21
+index = 3 x = 14 y = 9 speed = 2 g = 20.5
+index = 4 x = 14 y = 8 speed = 2 g = 20
+index = 5 x = 14 y = 7 speed = 2 g = 19.5
+index = 6 x = 16 y = 8 speed = 2 g = 18
+index = 7 x = 16 y = 9 speed = 2 g = 17.5
+index = 8 x = 16 y = 10 speed = 2 g = 17
+index = 9 x = 16 y = 11 speed = 2 g = 16.5
+index = 10 x = 16 y = 12 speed = 2 g = 16
+index = 11 x = 18 y = 11 speed = 2 g = 14.5
+index = 12 x = 18 y = 10 speed = 2 g = 14
+index = 13 x = 18 y = 9 speed = 2 g = 13.5
+index = 14 x = 18 y = 8 speed = 2 g = 13
+index = 15 x = 18 y = 7 speed = 2 g = 12.5
+index = 16 x = 18 y = 6 speed = 2 g = 11
+index = 17 x = 17 y = 6 speed = 2 g = 10.5
+index = 18 x = 16 y = 6 speed = 2 g = 10
+index = 19 x = 15 y = 6 speed = 2 g = 9.5
+index = 20 x = 14 y = 5 speed = 2 g = 9.5
+index = 21 x = 14 y = 4 speed = 2 g = 9
+index = 22 x = 14 y = 3 speed = 2 g = 8.5
+index = 23 x = 14 y = 2 speed = 2 g = 7
+index = 24 x = 13 y = 2 speed = 2 g = 6.5
+index = 25 x = 12 y = 2 speed = 2 g = 6
+index = 26 x = 11 y = 2 speed = 2 g = 5.5
+index = 27 x = 10 y = 2 speed = 2 g = 5
+index = 28 x = 8 y = 2 speed = 2 g = 4
+index = 29 x = 7 y = 2 speed = 2 g = 3.5
+index = 30 x = 5 y = 2 speed = 2 g = 2.5
+index = 31 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 55
+Current Node : x = 14 y = 12 speed = 2 g = 22
+Child List:
+index = 0 x = 15 y = 12 speed = 2 g = 22.5
+index = 1 x = 14 y = 11 speed = 2 g = 22.5
+Frontier List:
+index = 0 x = 14 y = 11 speed = 2 g = 21.5
+index = 1 x = 14 y = 10 speed = 2 g = 21
+index = 2 x = 14 y = 9 speed = 2 g = 20.5
+index = 3 x = 14 y = 8 speed = 2 g = 20
+index = 4 x = 14 y = 7 speed = 2 g = 19.5
+index = 5 x = 16 y = 8 speed = 2 g = 18
+index = 6 x = 16 y = 9 speed = 2 g = 17.5
+index = 7 x = 16 y = 10 speed = 2 g = 17
+index = 8 x = 16 y = 11 speed = 2 g = 16.5
+index = 9 x = 16 y = 12 speed = 2 g = 16
+index = 10 x = 18 y = 11 speed = 2 g = 14.5
+index = 11 x = 18 y = 10 speed = 2 g = 14
+index = 12 x = 18 y = 9 speed = 2 g = 13.5
+index = 13 x = 18 y = 8 speed = 2 g = 13
+index = 14 x = 18 y = 7 speed = 2 g = 12.5
+index = 15 x = 18 y = 6 speed = 2 g = 11
+index = 16 x = 17 y = 6 speed = 2 g = 10.5
+index = 17 x = 16 y = 6 speed = 2 g = 10
+index = 18 x = 15 y = 6 speed = 2 g = 9.5
+index = 19 x = 14 y = 5 speed = 2 g = 9.5
+index = 20 x = 14 y = 4 speed = 2 g = 9
+index = 21 x = 14 y = 3 speed = 2 g = 8.5
+index = 22 x = 14 y = 2 speed = 2 g = 7
+index = 23 x = 13 y = 2 speed = 2 g = 6.5
+index = 24 x = 12 y = 2 speed = 2 g = 6
+index = 25 x = 11 y = 2 speed = 2 g = 5.5
+index = 26 x = 10 y = 2 speed = 2 g = 5
+index = 27 x = 8 y = 2 speed = 2 g = 4
+index = 28 x = 7 y = 2 speed = 2 g = 3.5
+index = 29 x = 5 y = 2 speed = 2 g = 2.5
+index = 30 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 56
+Current Node : x = 14 y = 11 speed = 2 g = 21.5
+Child List:
+index = 0 x = 14 y = 12 speed = 2 g = 22
+index = 1 x = 15 y = 11 speed = 2 g = 22
+index = 2 x = 14 y = 10 speed = 2 g = 22
+Frontier List:
+index = 0 x = 14 y = 10 speed = 2 g = 21
+index = 1 x = 14 y = 9 speed = 2 g = 20.5
+index = 2 x = 14 y = 8 speed = 2 g = 20
+index = 3 x = 14 y = 7 speed = 2 g = 19.5
+index = 4 x = 16 y = 8 speed = 2 g = 18
+index = 5 x = 16 y = 9 speed = 2 g = 17.5
+index = 6 x = 16 y = 10 speed = 2 g = 17
+index = 7 x = 16 y = 11 speed = 2 g = 16.5
+index = 8 x = 16 y = 12 speed = 2 g = 16
+index = 9 x = 18 y = 11 speed = 2 g = 14.5
+index = 10 x = 18 y = 10 speed = 2 g = 14
+index = 11 x = 18 y = 9 speed = 2 g = 13.5
+index = 12 x = 18 y = 8 speed = 2 g = 13
+index = 13 x = 18 y = 7 speed = 2 g = 12.5
+index = 14 x = 18 y = 6 speed = 2 g = 11
+index = 15 x = 17 y = 6 speed = 2 g = 10.5
+index = 16 x = 16 y = 6 speed = 2 g = 10
+index = 17 x = 15 y = 6 speed = 2 g = 9.5
+index = 18 x = 14 y = 5 speed = 2 g = 9.5
+index = 19 x = 14 y = 4 speed = 2 g = 9
+index = 20 x = 14 y = 3 speed = 2 g = 8.5
+index = 21 x = 14 y = 2 speed = 2 g = 7
+index = 22 x = 13 y = 2 speed = 2 g = 6.5
+index = 23 x = 12 y = 2 speed = 2 g = 6
+index = 24 x = 11 y = 2 speed = 2 g = 5.5
+index = 25 x = 10 y = 2 speed = 2 g = 5
+index = 26 x = 8 y = 2 speed = 2 g = 4
+index = 27 x = 7 y = 2 speed = 2 g = 3.5
+index = 28 x = 5 y = 2 speed = 2 g = 2.5
+index = 29 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 57
+Current Node : x = 14 y = 10 speed = 2 g = 21
+Child List:
+index = 0 x = 14 y = 11 speed = 2 g = 21.5
+index = 1 x = 15 y = 10 speed = 2 g = 21.5
+index = 2 x = 14 y = 9 speed = 2 g = 21.5
+Frontier List:
+index = 0 x = 14 y = 9 speed = 2 g = 20.5
+index = 1 x = 14 y = 8 speed = 2 g = 20
+index = 2 x = 14 y = 7 speed = 2 g = 19.5
+index = 3 x = 16 y = 8 speed = 2 g = 18
+index = 4 x = 16 y = 9 speed = 2 g = 17.5
+index = 5 x = 16 y = 10 speed = 2 g = 17
+index = 6 x = 16 y = 11 speed = 2 g = 16.5
+index = 7 x = 16 y = 12 speed = 2 g = 16
+index = 8 x = 18 y = 11 speed = 2 g = 14.5
+index = 9 x = 18 y = 10 speed = 2 g = 14
+index = 10 x = 18 y = 9 speed = 2 g = 13.5
+index = 11 x = 18 y = 8 speed = 2 g = 13
+index = 12 x = 18 y = 7 speed = 2 g = 12.5
+index = 13 x = 18 y = 6 speed = 2 g = 11
+index = 14 x = 17 y = 6 speed = 2 g = 10.5
+index = 15 x = 16 y = 6 speed = 2 g = 10
+index = 16 x = 15 y = 6 speed = 2 g = 9.5
+index = 17 x = 14 y = 5 speed = 2 g = 9.5
+index = 18 x = 14 y = 4 speed = 2 g = 9
+index = 19 x = 14 y = 3 speed = 2 g = 8.5
+index = 20 x = 14 y = 2 speed = 2 g = 7
+index = 21 x = 13 y = 2 speed = 2 g = 6.5
+index = 22 x = 12 y = 2 speed = 2 g = 6
+index = 23 x = 11 y = 2 speed = 2 g = 5.5
+index = 24 x = 10 y = 2 speed = 2 g = 5
+index = 25 x = 8 y = 2 speed = 2 g = 4
+index = 26 x = 7 y = 2 speed = 2 g = 3.5
+index = 27 x = 5 y = 2 speed = 2 g = 2.5
+index = 28 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 58
+Current Node : x = 14 y = 9 speed = 2 g = 20.5
+Child List:
+index = 0 x = 14 y = 10 speed = 2 g = 21
+index = 1 x = 15 y = 9 speed = 2 g = 21
+index = 2 x = 14 y = 8 speed = 2 g = 21
+Frontier List:
+index = 0 x = 14 y = 8 speed = 2 g = 20
+index = 1 x = 14 y = 7 speed = 2 g = 19.5
+index = 2 x = 16 y = 8 speed = 2 g = 18
+index = 3 x = 16 y = 9 speed = 2 g = 17.5
+index = 4 x = 16 y = 10 speed = 2 g = 17
+index = 5 x = 16 y = 11 speed = 2 g = 16.5
+index = 6 x = 16 y = 12 speed = 2 g = 16
+index = 7 x = 18 y = 11 speed = 2 g = 14.5
+index = 8 x = 18 y = 10 speed = 2 g = 14
+index = 9 x = 18 y = 9 speed = 2 g = 13.5
+index = 10 x = 18 y = 8 speed = 2 g = 13
+index = 11 x = 18 y = 7 speed = 2 g = 12.5
+index = 12 x = 18 y = 6 speed = 2 g = 11
+index = 13 x = 17 y = 6 speed = 2 g = 10.5
+index = 14 x = 16 y = 6 speed = 2 g = 10
+index = 15 x = 15 y = 6 speed = 2 g = 9.5
+index = 16 x = 14 y = 5 speed = 2 g = 9.5
+index = 17 x = 14 y = 4 speed = 2 g = 9
+index = 18 x = 14 y = 3 speed = 2 g = 8.5
+index = 19 x = 14 y = 2 speed = 2 g = 7
+index = 20 x = 13 y = 2 speed = 2 g = 6.5
+index = 21 x = 12 y = 2 speed = 2 g = 6
+index = 22 x = 11 y = 2 speed = 2 g = 5.5
+index = 23 x = 10 y = 2 speed = 2 g = 5
+index = 24 x = 8 y = 2 speed = 2 g = 4
+index = 25 x = 7 y = 2 speed = 2 g = 3.5
+index = 26 x = 5 y = 2 speed = 2 g = 2.5
+index = 27 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 59
+Current Node : x = 14 y = 8 speed = 2 g = 20
+Child List:
+index = 0 x = 14 y = 9 speed = 2 g = 20.5
+index = 1 x = 15 y = 8 speed = 2 g = 20.5
+index = 2 x = 14 y = 7 speed = 2 g = 20.5
+Frontier List:
+index = 0 x = 14 y = 7 speed = 2 g = 19.5
+index = 1 x = 16 y = 8 speed = 2 g = 18
+index = 2 x = 16 y = 9 speed = 2 g = 17.5
+index = 3 x = 16 y = 10 speed = 2 g = 17
+index = 4 x = 16 y = 11 speed = 2 g = 16.5
+index = 5 x = 16 y = 12 speed = 2 g = 16
+index = 6 x = 18 y = 11 speed = 2 g = 14.5
+index = 7 x = 18 y = 10 speed = 2 g = 14
+index = 8 x = 18 y = 9 speed = 2 g = 13.5
+index = 9 x = 18 y = 8 speed = 2 g = 13
+index = 10 x = 18 y = 7 speed = 2 g = 12.5
+index = 11 x = 18 y = 6 speed = 2 g = 11
+index = 12 x = 17 y = 6 speed = 2 g = 10.5
+index = 13 x = 16 y = 6 speed = 2 g = 10
+index = 14 x = 15 y = 6 speed = 2 g = 9.5
+index = 15 x = 14 y = 5 speed = 2 g = 9.5
+index = 16 x = 14 y = 4 speed = 2 g = 9
+index = 17 x = 14 y = 3 speed = 2 g = 8.5
+index = 18 x = 14 y = 2 speed = 2 g = 7
+index = 19 x = 13 y = 2 speed = 2 g = 6.5
+index = 20 x = 12 y = 2 speed = 2 g = 6
+index = 21 x = 11 y = 2 speed = 2 g = 5.5
+index = 22 x = 10 y = 2 speed = 2 g = 5
+index = 23 x = 8 y = 2 speed = 2 g = 4
+index = 24 x = 7 y = 2 speed = 2 g = 3.5
+index = 25 x = 5 y = 2 speed = 2 g = 2.5
+index = 26 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 60
+Current Node : x = 14 y = 7 speed = 2 g = 19.5
+Child List:
+index = 0 x = 14 y = 8 speed = 2 g = 20
+index = 1 x = 15 y = 7 speed = 2 g = 20
+index = 2 x = 14 y = 6 speed = 2 g = 20
+Frontier List:
+index = 0 x = 14 y = 6 speed = 2 g = 20
+index = 1 x = 16 y = 8 speed = 2 g = 18
+index = 2 x = 16 y = 9 speed = 2 g = 17.5
+index = 3 x = 16 y = 10 speed = 2 g = 17
+index = 4 x = 16 y = 11 speed = 2 g = 16.5
+index = 5 x = 16 y = 12 speed = 2 g = 16
+index = 6 x = 18 y = 11 speed = 2 g = 14.5
+index = 7 x = 18 y = 10 speed = 2 g = 14
+index = 8 x = 18 y = 9 speed = 2 g = 13.5
+index = 9 x = 18 y = 8 speed = 2 g = 13
+index = 10 x = 18 y = 7 speed = 2 g = 12.5
+index = 11 x = 18 y = 6 speed = 2 g = 11
+index = 12 x = 17 y = 6 speed = 2 g = 10.5
+index = 13 x = 16 y = 6 speed = 2 g = 10
+index = 14 x = 15 y = 6 speed = 2 g = 9.5
+index = 15 x = 14 y = 5 speed = 2 g = 9.5
+index = 16 x = 14 y = 4 speed = 2 g = 9
+index = 17 x = 14 y = 3 speed = 2 g = 8.5
+index = 18 x = 14 y = 2 speed = 2 g = 7
+index = 19 x = 13 y = 2 speed = 2 g = 6.5
+index = 20 x = 12 y = 2 speed = 2 g = 6
+index = 21 x = 11 y = 2 speed = 2 g = 5.5
+index = 22 x = 10 y = 2 speed = 2 g = 5
+index = 23 x = 8 y = 2 speed = 2 g = 4
+index = 24 x = 7 y = 2 speed = 2 g = 3.5
+index = 25 x = 5 y = 2 speed = 2 g = 2.5
+index = 26 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 61
+Current Node : x = 14 y = 6 speed = 2 g = 20
+Child List:
+index = 0 x = 14 y = 7 speed = 2 g = 20.5
+index = 1 x = 15 y = 6 speed = 2 g = 20.5
+index = 2 x = 14 y = 5 speed = 2 g = 20.5
+Frontier List:
+index = 0 x = 16 y = 8 speed = 2 g = 18
+index = 1 x = 16 y = 9 speed = 2 g = 17.5
+index = 2 x = 16 y = 10 speed = 2 g = 17
+index = 3 x = 16 y = 11 speed = 2 g = 16.5
+index = 4 x = 16 y = 12 speed = 2 g = 16
+index = 5 x = 18 y = 11 speed = 2 g = 14.5
+index = 6 x = 18 y = 10 speed = 2 g = 14
+index = 7 x = 18 y = 9 speed = 2 g = 13.5
+index = 8 x = 18 y = 8 speed = 2 g = 13
+index = 9 x = 18 y = 7 speed = 2 g = 12.5
+index = 10 x = 18 y = 6 speed = 2 g = 11
+index = 11 x = 17 y = 6 speed = 2 g = 10.5
+index = 12 x = 16 y = 6 speed = 2 g = 10
+index = 13 x = 15 y = 6 speed = 2 g = 9.5
+index = 14 x = 14 y = 5 speed = 2 g = 9.5
+index = 15 x = 14 y = 4 speed = 2 g = 9
+index = 16 x = 14 y = 3 speed = 2 g = 8.5
+index = 17 x = 14 y = 2 speed = 2 g = 7
+index = 18 x = 13 y = 2 speed = 2 g = 6.5
+index = 19 x = 12 y = 2 speed = 2 g = 6
+index = 20 x = 11 y = 2 speed = 2 g = 5.5
+index = 21 x = 10 y = 2 speed = 2 g = 5
+index = 22 x = 8 y = 2 speed = 2 g = 4
+index = 23 x = 7 y = 2 speed = 2 g = 3.5
+index = 24 x = 5 y = 2 speed = 2 g = 2.5
+index = 25 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 62
+Current Node : x = 16 y = 8 speed = 2 g = 18
+Child List:
+index = 0 x = 15 y = 8 speed = 2 g = 18.5
+index = 1 x = 16 y = 9 speed = 2 g = 18.5
+index = 2 x = 17 y = 8 speed = 2 g = 18.5
+index = 3 x = 16 y = 7 speed = 2 g = 18.5
+Frontier List:
+index = 0 x = 16 y = 9 speed = 2 g = 17.5
+index = 1 x = 16 y = 10 speed = 2 g = 17
+index = 2 x = 16 y = 11 speed = 2 g = 16.5
+index = 3 x = 16 y = 12 speed = 2 g = 16
+index = 4 x = 18 y = 11 speed = 2 g = 14.5
+index = 5 x = 18 y = 10 speed = 2 g = 14
+index = 6 x = 18 y = 9 speed = 2 g = 13.5
+index = 7 x = 18 y = 8 speed = 2 g = 13
+index = 8 x = 18 y = 7 speed = 2 g = 12.5
+index = 9 x = 18 y = 6 speed = 2 g = 11
+index = 10 x = 17 y = 6 speed = 2 g = 10.5
+index = 11 x = 16 y = 6 speed = 2 g = 10
+index = 12 x = 15 y = 6 speed = 2 g = 9.5
+index = 13 x = 14 y = 5 speed = 2 g = 9.5
+index = 14 x = 14 y = 4 speed = 2 g = 9
+index = 15 x = 14 y = 3 speed = 2 g = 8.5
+index = 16 x = 14 y = 2 speed = 2 g = 7
+index = 17 x = 13 y = 2 speed = 2 g = 6.5
+index = 18 x = 12 y = 2 speed = 2 g = 6
+index = 19 x = 11 y = 2 speed = 2 g = 5.5
+index = 20 x = 10 y = 2 speed = 2 g = 5
+index = 21 x = 8 y = 2 speed = 2 g = 4
+index = 22 x = 7 y = 2 speed = 2 g = 3.5
+index = 23 x = 5 y = 2 speed = 2 g = 2.5
+index = 24 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 63
+Current Node : x = 16 y = 9 speed = 2 g = 17.5
+Child List:
+index = 0 x = 15 y = 9 speed = 2 g = 18
+index = 1 x = 16 y = 10 speed = 2 g = 18
+index = 2 x = 17 y = 9 speed = 2 g = 18
+index = 3 x = 16 y = 8 speed = 2 g = 18
+Frontier List:
+index = 0 x = 16 y = 10 speed = 2 g = 17
+index = 1 x = 16 y = 11 speed = 2 g = 16.5
+index = 2 x = 16 y = 12 speed = 2 g = 16
+index = 3 x = 18 y = 11 speed = 2 g = 14.5
+index = 4 x = 18 y = 10 speed = 2 g = 14
+index = 5 x = 18 y = 9 speed = 2 g = 13.5
+index = 6 x = 18 y = 8 speed = 2 g = 13
+index = 7 x = 18 y = 7 speed = 2 g = 12.5
+index = 8 x = 18 y = 6 speed = 2 g = 11
+index = 9 x = 17 y = 6 speed = 2 g = 10.5
+index = 10 x = 16 y = 6 speed = 2 g = 10
+index = 11 x = 15 y = 6 speed = 2 g = 9.5
+index = 12 x = 14 y = 5 speed = 2 g = 9.5
+index = 13 x = 14 y = 4 speed = 2 g = 9
+index = 14 x = 14 y = 3 speed = 2 g = 8.5
+index = 15 x = 14 y = 2 speed = 2 g = 7
+index = 16 x = 13 y = 2 speed = 2 g = 6.5
+index = 17 x = 12 y = 2 speed = 2 g = 6
+index = 18 x = 11 y = 2 speed = 2 g = 5.5
+index = 19 x = 10 y = 2 speed = 2 g = 5
+index = 20 x = 8 y = 2 speed = 2 g = 4
+index = 21 x = 7 y = 2 speed = 2 g = 3.5
+index = 22 x = 5 y = 2 speed = 2 g = 2.5
+index = 23 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 64
+Current Node : x = 16 y = 10 speed = 2 g = 17
+Child List:
+index = 0 x = 15 y = 10 speed = 2 g = 17.5
+index = 1 x = 16 y = 11 speed = 2 g = 17.5
+index = 2 x = 17 y = 10 speed = 2 g = 17.5
+index = 3 x = 16 y = 9 speed = 2 g = 17.5
+Frontier List:
+index = 0 x = 16 y = 11 speed = 2 g = 16.5
+index = 1 x = 16 y = 12 speed = 2 g = 16
+index = 2 x = 18 y = 11 speed = 2 g = 14.5
+index = 3 x = 18 y = 10 speed = 2 g = 14
+index = 4 x = 18 y = 9 speed = 2 g = 13.5
+index = 5 x = 18 y = 8 speed = 2 g = 13
+index = 6 x = 18 y = 7 speed = 2 g = 12.5
+index = 7 x = 18 y = 6 speed = 2 g = 11
+index = 8 x = 17 y = 6 speed = 2 g = 10.5
+index = 9 x = 16 y = 6 speed = 2 g = 10
+index = 10 x = 15 y = 6 speed = 2 g = 9.5
+index = 11 x = 14 y = 5 speed = 2 g = 9.5
+index = 12 x = 14 y = 4 speed = 2 g = 9
+index = 13 x = 14 y = 3 speed = 2 g = 8.5
+index = 14 x = 14 y = 2 speed = 2 g = 7
+index = 15 x = 13 y = 2 speed = 2 g = 6.5
+index = 16 x = 12 y = 2 speed = 2 g = 6
+index = 17 x = 11 y = 2 speed = 2 g = 5.5
+index = 18 x = 10 y = 2 speed = 2 g = 5
+index = 19 x = 8 y = 2 speed = 2 g = 4
+index = 20 x = 7 y = 2 speed = 2 g = 3.5
+index = 21 x = 5 y = 2 speed = 2 g = 2.5
+index = 22 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 65
+Current Node : x = 16 y = 11 speed = 2 g = 16.5
+Child List:
+index = 0 x = 15 y = 11 speed = 2 g = 17
+index = 1 x = 16 y = 12 speed = 2 g = 17
+index = 2 x = 17 y = 11 speed = 2 g = 17
+index = 3 x = 16 y = 10 speed = 2 g = 17
+Frontier List:
+index = 0 x = 16 y = 12 speed = 2 g = 16
+index = 1 x = 18 y = 11 speed = 2 g = 14.5
+index = 2 x = 18 y = 10 speed = 2 g = 14
+index = 3 x = 18 y = 9 speed = 2 g = 13.5
+index = 4 x = 18 y = 8 speed = 2 g = 13
+index = 5 x = 18 y = 7 speed = 2 g = 12.5
+index = 6 x = 18 y = 6 speed = 2 g = 11
+index = 7 x = 17 y = 6 speed = 2 g = 10.5
+index = 8 x = 16 y = 6 speed = 2 g = 10
+index = 9 x = 15 y = 6 speed = 2 g = 9.5
+index = 10 x = 14 y = 5 speed = 2 g = 9.5
+index = 11 x = 14 y = 4 speed = 2 g = 9
+index = 12 x = 14 y = 3 speed = 2 g = 8.5
+index = 13 x = 14 y = 2 speed = 2 g = 7
+index = 14 x = 13 y = 2 speed = 2 g = 6.5
+index = 15 x = 12 y = 2 speed = 2 g = 6
+index = 16 x = 11 y = 2 speed = 2 g = 5.5
+index = 17 x = 10 y = 2 speed = 2 g = 5
+index = 18 x = 8 y = 2 speed = 2 g = 4
+index = 19 x = 7 y = 2 speed = 2 g = 3.5
+index = 20 x = 5 y = 2 speed = 2 g = 2.5
+index = 21 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 66
+Current Node : x = 16 y = 12 speed = 2 g = 16
+Child List:
+index = 0 x = 15 y = 12 speed = 2 g = 16.5
+index = 1 x = 17 y = 12 speed = 2 g = 16.5
+index = 2 x = 16 y = 11 speed = 2 g = 16.5
+Frontier List:
+index = 0 x = 18 y = 11 speed = 2 g = 14.5
+index = 1 x = 18 y = 10 speed = 2 g = 14
+index = 2 x = 18 y = 9 speed = 2 g = 13.5
+index = 3 x = 18 y = 8 speed = 2 g = 13
+index = 4 x = 18 y = 7 speed = 2 g = 12.5
+index = 5 x = 18 y = 6 speed = 2 g = 11
+index = 6 x = 17 y = 6 speed = 2 g = 10.5
+index = 7 x = 16 y = 6 speed = 2 g = 10
+index = 8 x = 15 y = 6 speed = 2 g = 9.5
+index = 9 x = 14 y = 5 speed = 2 g = 9.5
+index = 10 x = 14 y = 4 speed = 2 g = 9
+index = 11 x = 14 y = 3 speed = 2 g = 8.5
+index = 12 x = 14 y = 2 speed = 2 g = 7
+index = 13 x = 13 y = 2 speed = 2 g = 6.5
+index = 14 x = 12 y = 2 speed = 2 g = 6
+index = 15 x = 11 y = 2 speed = 2 g = 5.5
+index = 16 x = 10 y = 2 speed = 2 g = 5
+index = 17 x = 8 y = 2 speed = 2 g = 4
+index = 18 x = 7 y = 2 speed = 2 g = 3.5
+index = 19 x = 5 y = 2 speed = 2 g = 2.5
+index = 20 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 67
+Current Node : x = 18 y = 11 speed = 2 g = 14.5
+Child List:
+index = 0 x = 17 y = 11 speed = 2 g = 15
+index = 1 x = 18 y = 12 speed = 2 g = 15
+index = 2 x = 19 y = 11 speed = 2 g = 15
+index = 3 x = 18 y = 10 speed = 2 g = 15
+Frontier List:
+index = 0 x = 18 y = 10 speed = 2 g = 14
+index = 1 x = 18 y = 9 speed = 2 g = 13.5
+index = 2 x = 18 y = 8 speed = 2 g = 13
+index = 3 x = 18 y = 7 speed = 2 g = 12.5
+index = 4 x = 18 y = 6 speed = 2 g = 11
+index = 5 x = 17 y = 6 speed = 2 g = 10.5
+index = 6 x = 16 y = 6 speed = 2 g = 10
+index = 7 x = 15 y = 6 speed = 2 g = 9.5
+index = 8 x = 14 y = 5 speed = 2 g = 9.5
+index = 9 x = 14 y = 4 speed = 2 g = 9
+index = 10 x = 14 y = 3 speed = 2 g = 8.5
+index = 11 x = 14 y = 2 speed = 2 g = 7
+index = 12 x = 13 y = 2 speed = 2 g = 6.5
+index = 13 x = 12 y = 2 speed = 2 g = 6
+index = 14 x = 11 y = 2 speed = 2 g = 5.5
+index = 15 x = 10 y = 2 speed = 2 g = 5
+index = 16 x = 8 y = 2 speed = 2 g = 4
+index = 17 x = 7 y = 2 speed = 2 g = 3.5
+index = 18 x = 5 y = 2 speed = 2 g = 2.5
+index = 19 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 68
+Current Node : x = 18 y = 10 speed = 2 g = 14
+Child List:
+index = 0 x = 17 y = 10 speed = 2 g = 14.5
+index = 1 x = 18 y = 11 speed = 2 g = 14.5
+index = 2 x = 19 y = 10 speed = 2 g = 14.5
+index = 3 x = 18 y = 9 speed = 2 g = 14.5
+Frontier List:
+index = 0 x = 18 y = 9 speed = 2 g = 13.5
+index = 1 x = 18 y = 8 speed = 2 g = 13
+index = 2 x = 18 y = 7 speed = 2 g = 12.5
+index = 3 x = 18 y = 6 speed = 2 g = 11
+index = 4 x = 17 y = 6 speed = 2 g = 10.5
+index = 5 x = 16 y = 6 speed = 2 g = 10
+index = 6 x = 15 y = 6 speed = 2 g = 9.5
+index = 7 x = 14 y = 5 speed = 2 g = 9.5
+index = 8 x = 14 y = 4 speed = 2 g = 9
+index = 9 x = 14 y = 3 speed = 2 g = 8.5
+index = 10 x = 14 y = 2 speed = 2 g = 7
+index = 11 x = 13 y = 2 speed = 2 g = 6.5
+index = 12 x = 12 y = 2 speed = 2 g = 6
+index = 13 x = 11 y = 2 speed = 2 g = 5.5
+index = 14 x = 10 y = 2 speed = 2 g = 5
+index = 15 x = 8 y = 2 speed = 2 g = 4
+index = 16 x = 7 y = 2 speed = 2 g = 3.5
+index = 17 x = 5 y = 2 speed = 2 g = 2.5
+index = 18 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 69
+Current Node : x = 18 y = 9 speed = 2 g = 13.5
+Child List:
+index = 0 x = 17 y = 9 speed = 2 g = 14
+index = 1 x = 18 y = 10 speed = 2 g = 14
+index = 2 x = 19 y = 9 speed = 2 g = 14
+index = 3 x = 18 y = 8 speed = 2 g = 14
+Frontier List:
+index = 0 x = 18 y = 8 speed = 2 g = 13
+index = 1 x = 18 y = 7 speed = 2 g = 12.5
+index = 2 x = 18 y = 6 speed = 2 g = 11
+index = 3 x = 17 y = 6 speed = 2 g = 10.5
+index = 4 x = 16 y = 6 speed = 2 g = 10
+index = 5 x = 15 y = 6 speed = 2 g = 9.5
+index = 6 x = 14 y = 5 speed = 2 g = 9.5
+index = 7 x = 14 y = 4 speed = 2 g = 9
+index = 8 x = 14 y = 3 speed = 2 g = 8.5
+index = 9 x = 14 y = 2 speed = 2 g = 7
+index = 10 x = 13 y = 2 speed = 2 g = 6.5
+index = 11 x = 12 y = 2 speed = 2 g = 6
+index = 12 x = 11 y = 2 speed = 2 g = 5.5
+index = 13 x = 10 y = 2 speed = 2 g = 5
+index = 14 x = 8 y = 2 speed = 2 g = 4
+index = 15 x = 7 y = 2 speed = 2 g = 3.5
+index = 16 x = 5 y = 2 speed = 2 g = 2.5
+index = 17 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 70
+Current Node : x = 18 y = 8 speed = 2 g = 13
+Child List:
+index = 0 x = 17 y = 8 speed = 2 g = 13.5
+index = 1 x = 18 y = 9 speed = 2 g = 13.5
+index = 2 x = 19 y = 8 speed = 2 g = 13.5
+index = 3 x = 18 y = 7 speed = 2 g = 13.5
+Frontier List:
+index = 0 x = 18 y = 7 speed = 2 g = 12.5
+index = 1 x = 18 y = 6 speed = 2 g = 11
+index = 2 x = 17 y = 6 speed = 2 g = 10.5
+index = 3 x = 16 y = 6 speed = 2 g = 10
+index = 4 x = 15 y = 6 speed = 2 g = 9.5
+index = 5 x = 14 y = 5 speed = 2 g = 9.5
+index = 6 x = 14 y = 4 speed = 2 g = 9
+index = 7 x = 14 y = 3 speed = 2 g = 8.5
+index = 8 x = 14 y = 2 speed = 2 g = 7
+index = 9 x = 13 y = 2 speed = 2 g = 6.5
+index = 10 x = 12 y = 2 speed = 2 g = 6
+index = 11 x = 11 y = 2 speed = 2 g = 5.5
+index = 12 x = 10 y = 2 speed = 2 g = 5
+index = 13 x = 8 y = 2 speed = 2 g = 4
+index = 14 x = 7 y = 2 speed = 2 g = 3.5
+index = 15 x = 5 y = 2 speed = 2 g = 2.5
+index = 16 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 71
+Current Node : x = 18 y = 7 speed = 2 g = 12.5
+Child List:
+index = 0 x = 17 y = 7 speed = 2 g = 13
+index = 1 x = 18 y = 8 speed = 2 g = 13
+index = 2 x = 19 y = 7 speed = 2 g = 13
+index = 3 x = 18 y = 6 speed = 2 g = 13
+Frontier List:
+index = 0 x = 18 y = 6 speed = 2 g = 11
+index = 1 x = 17 y = 6 speed = 2 g = 10.5
+index = 2 x = 16 y = 6 speed = 2 g = 10
+index = 3 x = 15 y = 6 speed = 2 g = 9.5
+index = 4 x = 14 y = 5 speed = 2 g = 9.5
+index = 5 x = 14 y = 4 speed = 2 g = 9
+index = 6 x = 14 y = 3 speed = 2 g = 8.5
+index = 7 x = 14 y = 2 speed = 2 g = 7
+index = 8 x = 13 y = 2 speed = 2 g = 6.5
+index = 9 x = 12 y = 2 speed = 2 g = 6
+index = 10 x = 11 y = 2 speed = 2 g = 5.5
+index = 11 x = 10 y = 2 speed = 2 g = 5
+index = 12 x = 8 y = 2 speed = 2 g = 4
+index = 13 x = 7 y = 2 speed = 2 g = 3.5
+index = 14 x = 5 y = 2 speed = 2 g = 2.5
+index = 15 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 72
+Current Node : x = 18 y = 6 speed = 2 g = 11
+Child List:
+index = 0 x = 17 y = 6 speed = 2 g = 11.5
+index = 1 x = 18 y = 7 speed = 2 g = 11.5
+index = 2 x = 19 y = 6 speed = 2 g = 11.5
+index = 3 x = 18 y = 5 speed = 2 g = 11.5
+Frontier List:
+index = 0 x = 17 y = 6 speed = 2 g = 10.5
+index = 1 x = 16 y = 6 speed = 2 g = 10
+index = 2 x = 15 y = 6 speed = 2 g = 9.5
+index = 3 x = 14 y = 5 speed = 2 g = 9.5
+index = 4 x = 14 y = 4 speed = 2 g = 9
+index = 5 x = 14 y = 3 speed = 2 g = 8.5
+index = 6 x = 14 y = 2 speed = 2 g = 7
+index = 7 x = 13 y = 2 speed = 2 g = 6.5
+index = 8 x = 12 y = 2 speed = 2 g = 6
+index = 9 x = 11 y = 2 speed = 2 g = 5.5
+index = 10 x = 10 y = 2 speed = 2 g = 5
+index = 11 x = 8 y = 2 speed = 2 g = 4
+index = 12 x = 7 y = 2 speed = 2 g = 3.5
+index = 13 x = 5 y = 2 speed = 2 g = 2.5
+index = 14 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 73
+Current Node : x = 17 y = 6 speed = 2 g = 10.5
+Child List:
+index = 0 x = 16 y = 6 speed = 2 g = 11
+index = 1 x = 17 y = 7 speed = 2 g = 11
+index = 2 x = 18 y = 6 speed = 2 g = 11
+index = 3 x = 17 y = 5 speed = 2 g = 11
+Frontier List:
+index = 0 x = 16 y = 6 speed = 2 g = 10
+index = 1 x = 15 y = 6 speed = 2 g = 9.5
+index = 2 x = 14 y = 5 speed = 2 g = 9.5
+index = 3 x = 14 y = 4 speed = 2 g = 9
+index = 4 x = 14 y = 3 speed = 2 g = 8.5
+index = 5 x = 14 y = 2 speed = 2 g = 7
+index = 6 x = 13 y = 2 speed = 2 g = 6.5
+index = 7 x = 12 y = 2 speed = 2 g = 6
+index = 8 x = 11 y = 2 speed = 2 g = 5.5
+index = 9 x = 10 y = 2 speed = 2 g = 5
+index = 10 x = 8 y = 2 speed = 2 g = 4
+index = 11 x = 7 y = 2 speed = 2 g = 3.5
+index = 12 x = 5 y = 2 speed = 2 g = 2.5
+index = 13 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 74
+Current Node : x = 16 y = 6 speed = 2 g = 10
+Child List:
+index = 0 x = 15 y = 6 speed = 2 g = 10.5
+index = 1 x = 16 y = 7 speed = 2 g = 10.5
+index = 2 x = 17 y = 6 speed = 2 g = 10.5
+index = 3 x = 16 y = 5 speed = 2 g = 10.5
+Frontier List:
+index = 0 x = 15 y = 6 speed = 2 g = 9.5
+index = 1 x = 14 y = 5 speed = 2 g = 9.5
+index = 2 x = 14 y = 4 speed = 2 g = 9
+index = 3 x = 14 y = 3 speed = 2 g = 8.5
+index = 4 x = 14 y = 2 speed = 2 g = 7
+index = 5 x = 13 y = 2 speed = 2 g = 6.5
+index = 6 x = 12 y = 2 speed = 2 g = 6
+index = 7 x = 11 y = 2 speed = 2 g = 5.5
+index = 8 x = 10 y = 2 speed = 2 g = 5
+index = 9 x = 8 y = 2 speed = 2 g = 4
+index = 10 x = 7 y = 2 speed = 2 g = 3.5
+index = 11 x = 5 y = 2 speed = 2 g = 2.5
+index = 12 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 75
+Current Node : x = 15 y = 6 speed = 2 g = 9.5
+Child List:
+index = 0 x = 14 y = 6 speed = 2 g = 10
+index = 1 x = 15 y = 7 speed = 2 g = 10
+index = 2 x = 16 y = 6 speed = 2 g = 10
+index = 3 x = 15 y = 5 speed = 2 g = 10
+Frontier List:
+index = 0 x = 14 y = 5 speed = 2 g = 9.5
+index = 1 x = 14 y = 4 speed = 2 g = 9
+index = 2 x = 14 y = 3 speed = 2 g = 8.5
+index = 3 x = 14 y = 2 speed = 2 g = 7
+index = 4 x = 13 y = 2 speed = 2 g = 6.5
+index = 5 x = 12 y = 2 speed = 2 g = 6
+index = 6 x = 11 y = 2 speed = 2 g = 5.5
+index = 7 x = 10 y = 2 speed = 2 g = 5
+index = 8 x = 8 y = 2 speed = 2 g = 4
+index = 9 x = 7 y = 2 speed = 2 g = 3.5
+index = 10 x = 5 y = 2 speed = 2 g = 2.5
+index = 11 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 76
+Current Node : x = 14 y = 5 speed = 2 g = 9.5
+Child List:
+index = 0 x = 13 y = 5 speed = 2 g = 10
+index = 1 x = 14 y = 6 speed = 2 g = 10
+index = 2 x = 15 y = 5 speed = 2 g = 10
+index = 3 x = 14 y = 4 speed = 2 g = 10
+Frontier List:
+index = 0 x = 13 y = 5 speed = 2 g = 10
+index = 1 x = 14 y = 4 speed = 2 g = 9
+index = 2 x = 14 y = 3 speed = 2 g = 8.5
+index = 3 x = 14 y = 2 speed = 2 g = 7
+index = 4 x = 13 y = 2 speed = 2 g = 6.5
+index = 5 x = 12 y = 2 speed = 2 g = 6
+index = 6 x = 11 y = 2 speed = 2 g = 5.5
+index = 7 x = 10 y = 2 speed = 2 g = 5
+index = 8 x = 8 y = 2 speed = 2 g = 4
+index = 9 x = 7 y = 2 speed = 2 g = 3.5
+index = 10 x = 5 y = 2 speed = 2 g = 2.5
+index = 11 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 77
+Current Node : x = 13 y = 5 speed = 2 g = 10
+Child List:
+index = 0 x = 12 y = 5 speed = 2 g = 10.5
+index = 1 x = 14 y = 5 speed = 2 g = 10.5
+index = 2 x = 13 y = 4 speed = 2 g = 10.5
+Frontier List:
+index = 0 x = 13 y = 4 speed = 2 g = 10.5
+index = 1 x = 12 y = 5 speed = 2 g = 10.5
+index = 2 x = 14 y = 4 speed = 2 g = 9
+index = 3 x = 14 y = 3 speed = 2 g = 8.5
+index = 4 x = 14 y = 2 speed = 2 g = 7
+index = 5 x = 13 y = 2 speed = 2 g = 6.5
+index = 6 x = 12 y = 2 speed = 2 g = 6
+index = 7 x = 11 y = 2 speed = 2 g = 5.5
+index = 8 x = 10 y = 2 speed = 2 g = 5
+index = 9 x = 8 y = 2 speed = 2 g = 4
+index = 10 x = 7 y = 2 speed = 2 g = 3.5
+index = 11 x = 5 y = 2 speed = 2 g = 2.5
+index = 12 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 78
+Current Node : x = 13 y = 4 speed = 2 g = 10.5
+Child List:
+index = 0 x = 12 y = 4 speed = 2 g = 11
+index = 1 x = 13 y = 5 speed = 2 g = 11
+index = 2 x = 14 y = 4 speed = 2 g = 11
+index = 3 x = 13 y = 3 speed = 2 g = 11
+Frontier List:
+index = 0 x = 13 y = 3 speed = 2 g = 11
+index = 1 x = 12 y = 4 speed = 2 g = 11
+index = 2 x = 12 y = 5 speed = 2 g = 10.5
+index = 3 x = 14 y = 4 speed = 2 g = 9
+index = 4 x = 14 y = 3 speed = 2 g = 8.5
+index = 5 x = 14 y = 2 speed = 2 g = 7
+index = 6 x = 13 y = 2 speed = 2 g = 6.5
+index = 7 x = 12 y = 2 speed = 2 g = 6
+index = 8 x = 11 y = 2 speed = 2 g = 5.5
+index = 9 x = 10 y = 2 speed = 2 g = 5
+index = 10 x = 8 y = 2 speed = 2 g = 4
+index = 11 x = 7 y = 2 speed = 2 g = 3.5
+index = 12 x = 5 y = 2 speed = 2 g = 2.5
+index = 13 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 79
+Current Node : x = 13 y = 3 speed = 2 g = 11
+Child List:
+index = 0 x = 12 y = 3 speed = 2 g = 11.5
+index = 1 x = 13 y = 4 speed = 2 g = 11.5
+index = 2 x = 14 y = 3 speed = 2 g = 11.5
+index = 3 x = 13 y = 2 speed = 2 g = 11.5
+Frontier List:
+index = 0 x = 12 y = 3 speed = 2 g = 11.5
+index = 1 x = 12 y = 4 speed = 2 g = 11
+index = 2 x = 12 y = 5 speed = 2 g = 10.5
+index = 3 x = 14 y = 4 speed = 2 g = 9
+index = 4 x = 14 y = 3 speed = 2 g = 8.5
+index = 5 x = 14 y = 2 speed = 2 g = 7
+index = 6 x = 13 y = 2 speed = 2 g = 6.5
+index = 7 x = 12 y = 2 speed = 2 g = 6
+index = 8 x = 11 y = 2 speed = 2 g = 5.5
+index = 9 x = 10 y = 2 speed = 2 g = 5
+index = 10 x = 8 y = 2 speed = 2 g = 4
+index = 11 x = 7 y = 2 speed = 2 g = 3.5
+index = 12 x = 5 y = 2 speed = 2 g = 2.5
+index = 13 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 80
+Current Node : x = 12 y = 3 speed = 2 g = 11.5
+Child List:
+index = 0 x = 11 y = 3 speed = 2 g = 12
+index = 1 x = 12 y = 4 speed = 2 g = 12
+index = 2 x = 13 y = 3 speed = 2 g = 12
+index = 3 x = 12 y = 2 speed = 2 g = 12
+Frontier List:
+index = 0 x = 11 y = 3 speed = 2 g = 12
+index = 1 x = 12 y = 4 speed = 2 g = 11
+index = 2 x = 12 y = 5 speed = 2 g = 10.5
+index = 3 x = 14 y = 4 speed = 2 g = 9
+index = 4 x = 14 y = 3 speed = 2 g = 8.5
+index = 5 x = 14 y = 2 speed = 2 g = 7
+index = 6 x = 13 y = 2 speed = 2 g = 6.5
+index = 7 x = 12 y = 2 speed = 2 g = 6
+index = 8 x = 11 y = 2 speed = 2 g = 5.5
+index = 9 x = 10 y = 2 speed = 2 g = 5
+index = 10 x = 8 y = 2 speed = 2 g = 4
+index = 11 x = 7 y = 2 speed = 2 g = 3.5
+index = 12 x = 5 y = 2 speed = 2 g = 2.5
+index = 13 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 81
+Current Node : x = 11 y = 3 speed = 2 g = 12
+Child List:
+index = 0 x = 10 y = 3 speed = 2 g = 12.5
+index = 1 x = 11 y = 4 speed = 2 g = 12.5
+index = 2 x = 12 y = 3 speed = 2 g = 12.5
+index = 3 x = 11 y = 2 speed = 2 g = 12.5
+Frontier List:
+index = 0 x = 11 y = 4 speed = 2 g = 12.5
+index = 1 x = 10 y = 3 speed = 2 g = 12.5
+index = 2 x = 12 y = 4 speed = 2 g = 11
+index = 3 x = 12 y = 5 speed = 2 g = 10.5
+index = 4 x = 14 y = 4 speed = 2 g = 9
+index = 5 x = 14 y = 3 speed = 2 g = 8.5
+index = 6 x = 14 y = 2 speed = 2 g = 7
+index = 7 x = 13 y = 2 speed = 2 g = 6.5
+index = 8 x = 12 y = 2 speed = 2 g = 6
+index = 9 x = 11 y = 2 speed = 2 g = 5.5
+index = 10 x = 10 y = 2 speed = 2 g = 5
+index = 11 x = 8 y = 2 speed = 2 g = 4
+index = 12 x = 7 y = 2 speed = 2 g = 3.5
+index = 13 x = 5 y = 2 speed = 2 g = 2.5
+index = 14 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 82
+Current Node : x = 11 y = 4 speed = 2 g = 12.5
+Child List:
+index = 0 x = 10 y = 4 speed = 2 g = 13
+index = 1 x = 11 y = 5 speed = 2 g = 13
+index = 2 x = 12 y = 4 speed = 2 g = 13
+index = 3 x = 11 y = 3 speed = 2 g = 13
+Frontier List:
+index = 0 x = 11 y = 5 speed = 2 g = 13
+index = 1 x = 10 y = 4 speed = 2 g = 13
+index = 2 x = 10 y = 3 speed = 2 g = 12.5
+index = 3 x = 12 y = 4 speed = 2 g = 11
+index = 4 x = 12 y = 5 speed = 2 g = 10.5
+index = 5 x = 14 y = 4 speed = 2 g = 9
+index = 6 x = 14 y = 3 speed = 2 g = 8.5
+index = 7 x = 14 y = 2 speed = 2 g = 7
+index = 8 x = 13 y = 2 speed = 2 g = 6.5
+index = 9 x = 12 y = 2 speed = 2 g = 6
+index = 10 x = 11 y = 2 speed = 2 g = 5.5
+index = 11 x = 10 y = 2 speed = 2 g = 5
+index = 12 x = 8 y = 2 speed = 2 g = 4
+index = 13 x = 7 y = 2 speed = 2 g = 3.5
+index = 14 x = 5 y = 2 speed = 2 g = 2.5
+index = 15 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 83
+Current Node : x = 11 y = 5 speed = 2 g = 13
+Child List:
+index = 0 x = 10 y = 5 speed = 2 g = 13.5
+index = 1 x = 12 y = 5 speed = 2 g = 13.5
+index = 2 x = 11 y = 4 speed = 2 g = 13.5
+Frontier List:
+index = 0 x = 10 y = 5 speed = 2 g = 13.5
+index = 1 x = 10 y = 4 speed = 2 g = 13
+index = 2 x = 10 y = 3 speed = 2 g = 12.5
+index = 3 x = 12 y = 4 speed = 2 g = 11
+index = 4 x = 12 y = 5 speed = 2 g = 10.5
+index = 5 x = 14 y = 4 speed = 2 g = 9
+index = 6 x = 14 y = 3 speed = 2 g = 8.5
+index = 7 x = 14 y = 2 speed = 2 g = 7
+index = 8 x = 13 y = 2 speed = 2 g = 6.5
+index = 9 x = 12 y = 2 speed = 2 g = 6
+index = 10 x = 11 y = 2 speed = 2 g = 5.5
+index = 11 x = 10 y = 2 speed = 2 g = 5
+index = 12 x = 8 y = 2 speed = 2 g = 4
+index = 13 x = 7 y = 2 speed = 2 g = 3.5
+index = 14 x = 5 y = 2 speed = 2 g = 2.5
+index = 15 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 84
+Current Node : x = 10 y = 5 speed = 2 g = 13.5
+Child List:
+index = 0 x = 9 y = 5 speed = 2 g = 14
+index = 1 x = 11 y = 5 speed = 2 g = 14
+index = 2 x = 10 y = 4 speed = 2 g = 14
+Frontier List:
+index = 0 x = 9 y = 5 speed = 2 g = 14
+index = 1 x = 10 y = 4 speed = 2 g = 13
+index = 2 x = 10 y = 3 speed = 2 g = 12.5
+index = 3 x = 12 y = 4 speed = 2 g = 11
+index = 4 x = 12 y = 5 speed = 2 g = 10.5
+index = 5 x = 14 y = 4 speed = 2 g = 9
+index = 6 x = 14 y = 3 speed = 2 g = 8.5
+index = 7 x = 14 y = 2 speed = 2 g = 7
+index = 8 x = 13 y = 2 speed = 2 g = 6.5
+index = 9 x = 12 y = 2 speed = 2 g = 6
+index = 10 x = 11 y = 2 speed = 2 g = 5.5
+index = 11 x = 10 y = 2 speed = 2 g = 5
+index = 12 x = 8 y = 2 speed = 2 g = 4
+index = 13 x = 7 y = 2 speed = 2 g = 3.5
+index = 14 x = 5 y = 2 speed = 2 g = 2.5
+index = 15 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 85
+Current Node : x = 9 y = 5 speed = 2 g = 14
+Child List:
+index = 0 x = 8 y = 5 speed = 2 g = 14.5
+index = 1 x = 10 y = 5 speed = 2 g = 14.5
+index = 2 x = 9 y = 4 speed = 2 g = 14.5
+Frontier List:
+index = 0 x = 9 y = 4 speed = 2 g = 14.5
+index = 1 x = 8 y = 5 speed = 2 g = 14.5
+index = 2 x = 10 y = 4 speed = 2 g = 13
+index = 3 x = 10 y = 3 speed = 2 g = 12.5
+index = 4 x = 12 y = 4 speed = 2 g = 11
+index = 5 x = 12 y = 5 speed = 2 g = 10.5
+index = 6 x = 14 y = 4 speed = 2 g = 9
+index = 7 x = 14 y = 3 speed = 2 g = 8.5
+index = 8 x = 14 y = 2 speed = 2 g = 7
+index = 9 x = 13 y = 2 speed = 2 g = 6.5
+index = 10 x = 12 y = 2 speed = 2 g = 6
+index = 11 x = 11 y = 2 speed = 2 g = 5.5
+index = 12 x = 10 y = 2 speed = 2 g = 5
+index = 13 x = 8 y = 2 speed = 2 g = 4
+index = 14 x = 7 y = 2 speed = 2 g = 3.5
+index = 15 x = 5 y = 2 speed = 2 g = 2.5
+index = 16 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 86
+Current Node : x = 9 y = 4 speed = 2 g = 14.5
+Child List:
+index = 0 x = 8 y = 4 speed = 2 g = 15
+index = 1 x = 9 y = 5 speed = 2 g = 15
+index = 2 x = 10 y = 4 speed = 2 g = 15
+index = 3 x = 9 y = 3 speed = 2 g = 15
+Frontier List:
+index = 0 x = 9 y = 3 speed = 2 g = 15
+index = 1 x = 8 y = 4 speed = 2 g = 15
+index = 2 x = 8 y = 5 speed = 2 g = 14.5
+index = 3 x = 10 y = 4 speed = 2 g = 13
+index = 4 x = 10 y = 3 speed = 2 g = 12.5
+index = 5 x = 12 y = 4 speed = 2 g = 11
+index = 6 x = 12 y = 5 speed = 2 g = 10.5
+index = 7 x = 14 y = 4 speed = 2 g = 9
+index = 8 x = 14 y = 3 speed = 2 g = 8.5
+index = 9 x = 14 y = 2 speed = 2 g = 7
+index = 10 x = 13 y = 2 speed = 2 g = 6.5
+index = 11 x = 12 y = 2 speed = 2 g = 6
+index = 12 x = 11 y = 2 speed = 2 g = 5.5
+index = 13 x = 10 y = 2 speed = 2 g = 5
+index = 14 x = 8 y = 2 speed = 2 g = 4
+index = 15 x = 7 y = 2 speed = 2 g = 3.5
+index = 16 x = 5 y = 2 speed = 2 g = 2.5
+index = 17 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 87
+Current Node : x = 9 y = 3 speed = 2 g = 15
+Child List:
+index = 0 x = 8 y = 3 speed = 2 g = 15.5
+index = 1 x = 9 y = 4 speed = 2 g = 15.5
+index = 2 x = 10 y = 3 speed = 2 g = 15.5
+Frontier List:
+index = 0 x = 8 y = 3 speed = 2 g = 15.5
+index = 1 x = 8 y = 4 speed = 2 g = 15
+index = 2 x = 8 y = 5 speed = 2 g = 14.5
+index = 3 x = 10 y = 4 speed = 2 g = 13
+index = 4 x = 10 y = 3 speed = 2 g = 12.5
+index = 5 x = 12 y = 4 speed = 2 g = 11
+index = 6 x = 12 y = 5 speed = 2 g = 10.5
+index = 7 x = 14 y = 4 speed = 2 g = 9
+index = 8 x = 14 y = 3 speed = 2 g = 8.5
+index = 9 x = 14 y = 2 speed = 2 g = 7
+index = 10 x = 13 y = 2 speed = 2 g = 6.5
+index = 11 x = 12 y = 2 speed = 2 g = 6
+index = 12 x = 11 y = 2 speed = 2 g = 5.5
+index = 13 x = 10 y = 2 speed = 2 g = 5
+index = 14 x = 8 y = 2 speed = 2 g = 4
+index = 15 x = 7 y = 2 speed = 2 g = 3.5
+index = 16 x = 5 y = 2 speed = 2 g = 2.5
+index = 17 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 88
+Current Node : x = 8 y = 3 speed = 2 g = 15.5
+Child List:
+index = 0 x = 7 y = 3 speed = 2 g = 16
+index = 1 x = 8 y = 4 speed = 2 g = 16
+index = 2 x = 9 y = 3 speed = 2 g = 16
+index = 3 x = 8 y = 2 speed = 2 g = 16
+Frontier List:
+index = 0 x = 7 y = 3 speed = 2 g = 16
+index = 1 x = 8 y = 4 speed = 2 g = 15
+index = 2 x = 8 y = 5 speed = 2 g = 14.5
+index = 3 x = 10 y = 4 speed = 2 g = 13
+index = 4 x = 10 y = 3 speed = 2 g = 12.5
+index = 5 x = 12 y = 4 speed = 2 g = 11
+index = 6 x = 12 y = 5 speed = 2 g = 10.5
+index = 7 x = 14 y = 4 speed = 2 g = 9
+index = 8 x = 14 y = 3 speed = 2 g = 8.5
+index = 9 x = 14 y = 2 speed = 2 g = 7
+index = 10 x = 13 y = 2 speed = 2 g = 6.5
+index = 11 x = 12 y = 2 speed = 2 g = 6
+index = 12 x = 11 y = 2 speed = 2 g = 5.5
+index = 13 x = 10 y = 2 speed = 2 g = 5
+index = 14 x = 8 y = 2 speed = 2 g = 4
+index = 15 x = 7 y = 2 speed = 2 g = 3.5
+index = 16 x = 5 y = 2 speed = 2 g = 2.5
+index = 17 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 89
+Current Node : x = 7 y = 3 speed = 2 g = 16
+Child List:
+index = 0 x = 6 y = 3 speed = 2 g = 16.5
+index = 1 x = 7 y = 4 speed = 2 g = 16.5
+index = 2 x = 8 y = 3 speed = 2 g = 16.5
+index = 3 x = 7 y = 2 speed = 2 g = 16.5
+Frontier List:
+index = 0 x = 7 y = 4 speed = 2 g = 16.5
+index = 1 x = 6 y = 3 speed = 2 g = 16.5
+index = 2 x = 8 y = 4 speed = 2 g = 15
+index = 3 x = 8 y = 5 speed = 2 g = 14.5
+index = 4 x = 10 y = 4 speed = 2 g = 13
+index = 5 x = 10 y = 3 speed = 2 g = 12.5
+index = 6 x = 12 y = 4 speed = 2 g = 11
+index = 7 x = 12 y = 5 speed = 2 g = 10.5
+index = 8 x = 14 y = 4 speed = 2 g = 9
+index = 9 x = 14 y = 3 speed = 2 g = 8.5
+index = 10 x = 14 y = 2 speed = 2 g = 7
+index = 11 x = 13 y = 2 speed = 2 g = 6.5
+index = 12 x = 12 y = 2 speed = 2 g = 6
+index = 13 x = 11 y = 2 speed = 2 g = 5.5
+index = 14 x = 10 y = 2 speed = 2 g = 5
+index = 15 x = 8 y = 2 speed = 2 g = 4
+index = 16 x = 7 y = 2 speed = 2 g = 3.5
+index = 17 x = 5 y = 2 speed = 2 g = 2.5
+index = 18 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 90
+Current Node : x = 7 y = 4 speed = 2 g = 16.5
+Child List:
+index = 0 x = 6 y = 4 speed = 2 g = 17
+index = 1 x = 7 y = 5 speed = 2 g = 17
+index = 2 x = 8 y = 4 speed = 2 g = 17
+index = 3 x = 7 y = 3 speed = 2 g = 17
+Frontier List:
+index = 0 x = 7 y = 5 speed = 2 g = 17
+index = 1 x = 6 y = 4 speed = 2 g = 17
+index = 2 x = 6 y = 3 speed = 2 g = 16.5
+index = 3 x = 8 y = 4 speed = 2 g = 15
+index = 4 x = 8 y = 5 speed = 2 g = 14.5
+index = 5 x = 10 y = 4 speed = 2 g = 13
+index = 6 x = 10 y = 3 speed = 2 g = 12.5
+index = 7 x = 12 y = 4 speed = 2 g = 11
+index = 8 x = 12 y = 5 speed = 2 g = 10.5
+index = 9 x = 14 y = 4 speed = 2 g = 9
+index = 10 x = 14 y = 3 speed = 2 g = 8.5
+index = 11 x = 14 y = 2 speed = 2 g = 7
+index = 12 x = 13 y = 2 speed = 2 g = 6.5
+index = 13 x = 12 y = 2 speed = 2 g = 6
+index = 14 x = 11 y = 2 speed = 2 g = 5.5
+index = 15 x = 10 y = 2 speed = 2 g = 5
+index = 16 x = 8 y = 2 speed = 2 g = 4
+index = 17 x = 7 y = 2 speed = 2 g = 3.5
+index = 18 x = 5 y = 2 speed = 2 g = 2.5
+index = 19 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 91
+Current Node : x = 7 y = 5 speed = 2 g = 17
+Child List:
+index = 0 x = 8 y = 5 speed = 2 g = 17.5
+index = 1 x = 7 y = 4 speed = 2 g = 17.5
+Frontier List:
+index = 0 x = 6 y = 4 speed = 2 g = 17
+index = 1 x = 6 y = 3 speed = 2 g = 16.5
+index = 2 x = 8 y = 4 speed = 2 g = 15
+index = 3 x = 8 y = 5 speed = 2 g = 14.5
+index = 4 x = 10 y = 4 speed = 2 g = 13
+index = 5 x = 10 y = 3 speed = 2 g = 12.5
+index = 6 x = 12 y = 4 speed = 2 g = 11
+index = 7 x = 12 y = 5 speed = 2 g = 10.5
+index = 8 x = 14 y = 4 speed = 2 g = 9
+index = 9 x = 14 y = 3 speed = 2 g = 8.5
+index = 10 x = 14 y = 2 speed = 2 g = 7
+index = 11 x = 13 y = 2 speed = 2 g = 6.5
+index = 12 x = 12 y = 2 speed = 2 g = 6
+index = 13 x = 11 y = 2 speed = 2 g = 5.5
+index = 14 x = 10 y = 2 speed = 2 g = 5
+index = 15 x = 8 y = 2 speed = 2 g = 4
+index = 16 x = 7 y = 2 speed = 2 g = 3.5
+index = 17 x = 5 y = 2 speed = 2 g = 2.5
+index = 18 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 92
+Current Node : x = 6 y = 4 speed = 2 g = 17
+Child List:
+index = 0 x = 5 y = 4 speed = 2 g = 17.5
+index = 1 x = 7 y = 4 speed = 2 g = 17.5
+index = 2 x = 6 y = 3 speed = 2 g = 17.5
+Frontier List:
+index = 0 x = 5 y = 4 speed = 2 g = 17.5
+index = 1 x = 6 y = 3 speed = 2 g = 16.5
+index = 2 x = 8 y = 4 speed = 2 g = 15
+index = 3 x = 8 y = 5 speed = 2 g = 14.5
+index = 4 x = 10 y = 4 speed = 2 g = 13
+index = 5 x = 10 y = 3 speed = 2 g = 12.5
+index = 6 x = 12 y = 4 speed = 2 g = 11
+index = 7 x = 12 y = 5 speed = 2 g = 10.5
+index = 8 x = 14 y = 4 speed = 2 g = 9
+index = 9 x = 14 y = 3 speed = 2 g = 8.5
+index = 10 x = 14 y = 2 speed = 2 g = 7
+index = 11 x = 13 y = 2 speed = 2 g = 6.5
+index = 12 x = 12 y = 2 speed = 2 g = 6
+index = 13 x = 11 y = 2 speed = 2 g = 5.5
+index = 14 x = 10 y = 2 speed = 2 g = 5
+index = 15 x = 8 y = 2 speed = 2 g = 4
+index = 16 x = 7 y = 2 speed = 2 g = 3.5
+index = 17 x = 5 y = 2 speed = 2 g = 2.5
+index = 18 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 93
+Current Node : x = 5 y = 4 speed = 2 g = 17.5
+Child List:
+index = 0 x = 4 y = 4 speed = 2 g = 18
+index = 1 x = 6 y = 4 speed = 2 g = 18
+index = 2 x = 5 y = 3 speed = 2 g = 18
+Frontier List:
+index = 0 x = 5 y = 3 speed = 2 g = 18
+index = 1 x = 4 y = 4 speed = 2 g = 18
+index = 2 x = 6 y = 3 speed = 2 g = 16.5
+index = 3 x = 8 y = 4 speed = 2 g = 15
+index = 4 x = 8 y = 5 speed = 2 g = 14.5
+index = 5 x = 10 y = 4 speed = 2 g = 13
+index = 6 x = 10 y = 3 speed = 2 g = 12.5
+index = 7 x = 12 y = 4 speed = 2 g = 11
+index = 8 x = 12 y = 5 speed = 2 g = 10.5
+index = 9 x = 14 y = 4 speed = 2 g = 9
+index = 10 x = 14 y = 3 speed = 2 g = 8.5
+index = 11 x = 14 y = 2 speed = 2 g = 7
+index = 12 x = 13 y = 2 speed = 2 g = 6.5
+index = 13 x = 12 y = 2 speed = 2 g = 6
+index = 14 x = 11 y = 2 speed = 2 g = 5.5
+index = 15 x = 10 y = 2 speed = 2 g = 5
+index = 16 x = 8 y = 2 speed = 2 g = 4
+index = 17 x = 7 y = 2 speed = 2 g = 3.5
+index = 18 x = 5 y = 2 speed = 2 g = 2.5
+index = 19 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 94
+Current Node : x = 5 y = 3 speed = 2 g = 18
+Child List:
+index = 0 x = 4 y = 3 speed = 1.9 g = 18.5
+index = 1 x = 5 y = 4 speed = 2 g = 18.5
+index = 2 x = 6 y = 3 speed = 2 g = 18.5
+index = 3 x = 5 y = 2 speed = 2 g = 18.5
+Frontier List:
+index = 0 x = 4 y = 3 speed = 1.9 g = 18.5
+index = 1 x = 4 y = 4 speed = 2 g = 18
+index = 2 x = 6 y = 3 speed = 2 g = 16.5
+index = 3 x = 8 y = 4 speed = 2 g = 15
+index = 4 x = 8 y = 5 speed = 2 g = 14.5
+index = 5 x = 10 y = 4 speed = 2 g = 13
+index = 6 x = 10 y = 3 speed = 2 g = 12.5
+index = 7 x = 12 y = 4 speed = 2 g = 11
+index = 8 x = 12 y = 5 speed = 2 g = 10.5
+index = 9 x = 14 y = 4 speed = 2 g = 9
+index = 10 x = 14 y = 3 speed = 2 g = 8.5
+index = 11 x = 14 y = 2 speed = 2 g = 7
+index = 12 x = 13 y = 2 speed = 2 g = 6.5
+index = 13 x = 12 y = 2 speed = 2 g = 6
+index = 14 x = 11 y = 2 speed = 2 g = 5.5
+index = 15 x = 10 y = 2 speed = 2 g = 5
+index = 16 x = 8 y = 2 speed = 2 g = 4
+index = 17 x = 7 y = 2 speed = 2 g = 3.5
+index = 18 x = 5 y = 2 speed = 2 g = 2.5
+index = 19 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 95
+Current Node : x = 4 y = 3 speed = 1.9 g = 18.5
+Child List:
+index = 0 x = 3 y = 3 speed = 1.8 g = 19.03
+index = 1 x = 4 y = 4 speed = 1.9 g = 19.03
+index = 2 x = 5 y = 3 speed = 1.9 g = 19.03
+Frontier List:
+index = 0 x = 5 y = 3 speed = 1.9 g = 19.03
+index = 1 x = 4 y = 4 speed = 1.9 g = 19.03
+index = 2 x = 3 y = 3 speed = 1.8 g = 19.03
+index = 3 x = 4 y = 4 speed = 2 g = 18
+index = 4 x = 6 y = 3 speed = 2 g = 16.5
+index = 5 x = 8 y = 4 speed = 2 g = 15
+index = 6 x = 8 y = 5 speed = 2 g = 14.5
+index = 7 x = 10 y = 4 speed = 2 g = 13
+index = 8 x = 10 y = 3 speed = 2 g = 12.5
+index = 9 x = 12 y = 4 speed = 2 g = 11
+index = 10 x = 12 y = 5 speed = 2 g = 10.5
+index = 11 x = 14 y = 4 speed = 2 g = 9
+index = 12 x = 14 y = 3 speed = 2 g = 8.5
+index = 13 x = 14 y = 2 speed = 2 g = 7
+index = 14 x = 13 y = 2 speed = 2 g = 6.5
+index = 15 x = 12 y = 2 speed = 2 g = 6
+index = 16 x = 11 y = 2 speed = 2 g = 5.5
+index = 17 x = 10 y = 2 speed = 2 g = 5
+index = 18 x = 8 y = 2 speed = 2 g = 4
+index = 19 x = 7 y = 2 speed = 2 g = 3.5
+index = 20 x = 5 y = 2 speed = 2 g = 2.5
+index = 21 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 96
+Current Node : x = 5 y = 3 speed = 1.9 g = 19.03
+Child List:
+index = 0 x = 4 y = 3 speed = 1.8 g = 19.55
+index = 1 x = 5 y = 4 speed = 1.9 g = 19.55
+index = 2 x = 6 y = 3 speed = 1.9 g = 19.55
+index = 3 x = 5 y = 2 speed = 1.9 g = 19.55
+Frontier List:
+index = 0 x = 5 y = 2 speed = 1.9 g = 19.55
+index = 1 x = 6 y = 3 speed = 1.9 g = 19.55
+index = 2 x = 5 y = 4 speed = 1.9 g = 19.55
+index = 3 x = 4 y = 3 speed = 1.8 g = 19.55
+index = 4 x = 4 y = 4 speed = 1.9 g = 19.03
+index = 5 x = 3 y = 3 speed = 1.8 g = 19.03
+index = 6 x = 4 y = 4 speed = 2 g = 18
+index = 7 x = 6 y = 3 speed = 2 g = 16.5
+index = 8 x = 8 y = 4 speed = 2 g = 15
+index = 9 x = 8 y = 5 speed = 2 g = 14.5
+index = 10 x = 10 y = 4 speed = 2 g = 13
+index = 11 x = 10 y = 3 speed = 2 g = 12.5
+index = 12 x = 12 y = 4 speed = 2 g = 11
+index = 13 x = 12 y = 5 speed = 2 g = 10.5
+index = 14 x = 14 y = 4 speed = 2 g = 9
+index = 15 x = 14 y = 3 speed = 2 g = 8.5
+index = 16 x = 14 y = 2 speed = 2 g = 7
+index = 17 x = 13 y = 2 speed = 2 g = 6.5
+index = 18 x = 12 y = 2 speed = 2 g = 6
+index = 19 x = 11 y = 2 speed = 2 g = 5.5
+index = 20 x = 10 y = 2 speed = 2 g = 5
+index = 21 x = 8 y = 2 speed = 2 g = 4
+index = 22 x = 7 y = 2 speed = 2 g = 3.5
+index = 23 x = 5 y = 2 speed = 2 g = 2.5
+index = 24 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 97
+Current Node : x = 5 y = 2 speed = 1.9 g = 19.55
+Child List:
+index = 0 x = 5 y = 3 speed = 1.9 g = 20.08
+index = 1 x = 5 y = 1 speed = 1.9 g = 20.08
+Frontier List:
+index = 0 x = 5 y = 1 speed = 1.9 g = 20.08
+index = 1 x = 6 y = 3 speed = 1.9 g = 19.55
+index = 2 x = 5 y = 4 speed = 1.9 g = 19.55
+index = 3 x = 4 y = 3 speed = 1.8 g = 19.55
+index = 4 x = 4 y = 4 speed = 1.9 g = 19.03
+index = 5 x = 3 y = 3 speed = 1.8 g = 19.03
+index = 6 x = 4 y = 4 speed = 2 g = 18
+index = 7 x = 6 y = 3 speed = 2 g = 16.5
+index = 8 x = 8 y = 4 speed = 2 g = 15
+index = 9 x = 8 y = 5 speed = 2 g = 14.5
+index = 10 x = 10 y = 4 speed = 2 g = 13
+index = 11 x = 10 y = 3 speed = 2 g = 12.5
+index = 12 x = 12 y = 4 speed = 2 g = 11
+index = 13 x = 12 y = 5 speed = 2 g = 10.5
+index = 14 x = 14 y = 4 speed = 2 g = 9
+index = 15 x = 14 y = 3 speed = 2 g = 8.5
+index = 16 x = 14 y = 2 speed = 2 g = 7
+index = 17 x = 13 y = 2 speed = 2 g = 6.5
+index = 18 x = 12 y = 2 speed = 2 g = 6
+index = 19 x = 11 y = 2 speed = 2 g = 5.5
+index = 20 x = 10 y = 2 speed = 2 g = 5
+index = 21 x = 8 y = 2 speed = 2 g = 4
+index = 22 x = 7 y = 2 speed = 2 g = 3.5
+index = 23 x = 5 y = 2 speed = 2 g = 2.5
+index = 24 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 98
+Current Node : x = 5 y = 1 speed = 1.9 g = 20.08
+Child List:
+index = 0 x = 4 y = 1 speed = 1.9 g = 20.61
+index = 1 x = 5 y = 2 speed = 1.9 g = 20.61
+index = 2 x = 6 y = 1 speed = 1.9 g = 20.61
+Frontier List:
+index = 0 x = 6 y = 1 speed = 1.9 g = 20.61
+index = 1 x = 4 y = 1 speed = 1.9 g = 20.61
+index = 2 x = 6 y = 3 speed = 1.9 g = 19.55
+index = 3 x = 5 y = 4 speed = 1.9 g = 19.55
+index = 4 x = 4 y = 3 speed = 1.8 g = 19.55
+index = 5 x = 4 y = 4 speed = 1.9 g = 19.03
+index = 6 x = 3 y = 3 speed = 1.8 g = 19.03
+index = 7 x = 4 y = 4 speed = 2 g = 18
+index = 8 x = 6 y = 3 speed = 2 g = 16.5
+index = 9 x = 8 y = 4 speed = 2 g = 15
+index = 10 x = 8 y = 5 speed = 2 g = 14.5
+index = 11 x = 10 y = 4 speed = 2 g = 13
+index = 12 x = 10 y = 3 speed = 2 g = 12.5
+index = 13 x = 12 y = 4 speed = 2 g = 11
+index = 14 x = 12 y = 5 speed = 2 g = 10.5
+index = 15 x = 14 y = 4 speed = 2 g = 9
+index = 16 x = 14 y = 3 speed = 2 g = 8.5
+index = 17 x = 14 y = 2 speed = 2 g = 7
+index = 18 x = 13 y = 2 speed = 2 g = 6.5
+index = 19 x = 12 y = 2 speed = 2 g = 6
+index = 20 x = 11 y = 2 speed = 2 g = 5.5
+index = 21 x = 10 y = 2 speed = 2 g = 5
+index = 22 x = 8 y = 2 speed = 2 g = 4
+index = 23 x = 7 y = 2 speed = 2 g = 3.5
+index = 24 x = 5 y = 2 speed = 2 g = 2.5
+index = 25 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 99
+Current Node : x = 6 y = 1 speed = 1.9 g = 20.61
+Child List:
+index = 0 x = 5 y = 1 speed = 1.9 g = 21.13
+index = 1 x = 7 y = 1 speed = 1.9 g = 21.13
+Frontier List:
+index = 0 x = 7 y = 1 speed = 1.9 g = 21.13
+index = 1 x = 4 y = 1 speed = 1.9 g = 20.61
+index = 2 x = 6 y = 3 speed = 1.9 g = 19.55
+index = 3 x = 5 y = 4 speed = 1.9 g = 19.55
+index = 4 x = 4 y = 3 speed = 1.8 g = 19.55
+index = 5 x = 4 y = 4 speed = 1.9 g = 19.03
+index = 6 x = 3 y = 3 speed = 1.8 g = 19.03
+index = 7 x = 4 y = 4 speed = 2 g = 18
+index = 8 x = 6 y = 3 speed = 2 g = 16.5
+index = 9 x = 8 y = 4 speed = 2 g = 15
+index = 10 x = 8 y = 5 speed = 2 g = 14.5
+index = 11 x = 10 y = 4 speed = 2 g = 13
+index = 12 x = 10 y = 3 speed = 2 g = 12.5
+index = 13 x = 12 y = 4 speed = 2 g = 11
+index = 14 x = 12 y = 5 speed = 2 g = 10.5
+index = 15 x = 14 y = 4 speed = 2 g = 9
+index = 16 x = 14 y = 3 speed = 2 g = 8.5
+index = 17 x = 14 y = 2 speed = 2 g = 7
+index = 18 x = 13 y = 2 speed = 2 g = 6.5
+index = 19 x = 12 y = 2 speed = 2 g = 6
+index = 20 x = 11 y = 2 speed = 2 g = 5.5
+index = 21 x = 10 y = 2 speed = 2 g = 5
+index = 22 x = 8 y = 2 speed = 2 g = 4
+index = 23 x = 7 y = 2 speed = 2 g = 3.5
+index = 24 x = 5 y = 2 speed = 2 g = 2.5
+index = 25 x = 2 y = 2 speed = 2 g = 1
+
+Iteration = 100
+Current Node : x = 7 y = 1 speed = 1.9 g = 21.13
+Child List:
+index = 0 x = 6 y = 1 speed = 1.9 g = 21.66
+index = 1 x = 7 y = 2 speed = 1.9 g = 21.66
+index = 2 x = 8 y = 1 speed = 1.9 g = 21.66
+Frontier List:
+index = 0 x = 8 y = 1 speed = 1.9 g = 21.66
+index = 1 x = 7 y = 2 speed = 1.9 g = 21.66
+index = 2 x = 4 y = 1 speed = 1.9 g = 20.61
+index = 3 x = 6 y = 3 speed = 1.9 g = 19.55
+index = 4 x = 5 y = 4 speed = 1.9 g = 19.55
+index = 5 x = 4 y = 3 speed = 1.8 g = 19.55
+index = 6 x = 4 y = 4 speed = 1.9 g = 19.03
+index = 7 x = 3 y = 3 speed = 1.8 g = 19.03
+index = 8 x = 4 y = 4 speed = 2 g = 18
+index = 9 x = 6 y = 3 speed = 2 g = 16.5
+index = 10 x = 8 y = 4 speed = 2 g = 15
+index = 11 x = 8 y = 5 speed = 2 g = 14.5
+index = 12 x = 10 y = 4 speed = 2 g = 13
+index = 13 x = 10 y = 3 speed = 2 g = 12.5
+index = 14 x = 12 y = 4 speed = 2 g = 11
+index = 15 x = 12 y = 5 speed = 2 g = 10.5
+index = 16 x = 14 y = 4 speed = 2 g = 9
+index = 17 x = 14 y = 3 speed = 2 g = 8.5
+index = 18 x = 14 y = 2 speed = 2 g = 7
+index = 19 x = 13 y = 2 speed = 2 g = 6.5
+index = 20 x = 12 y = 2 speed = 2 g = 6
+index = 21 x = 11 y = 2 speed = 2 g = 5.5
+index = 22 x = 10 y = 2 speed = 2 g = 5
+index = 23 x = 8 y = 2 speed = 2 g = 4
+index = 24 x = 7 y = 2 speed = 2 g = 3.5
+index = 25 x = 5 y = 2 speed = 2 g = 2.5
+index = 26 x = 2 y = 2 speed = 2 g = 1
+

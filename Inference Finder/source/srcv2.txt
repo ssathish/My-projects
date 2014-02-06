@@ -1,0 +1,1042 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.LinkedList;
+
+/**
+ * @author Sathish Sinivasan
+ *
+ */
+public class PropositionalLogic 
+{
+	/**
+	 * Main program starts
+	 */
+	public static void main(String[] args) 
+	{
+		String path=new String("src/");
+		String kb_filename=new String(path.concat("kb2.txt"));
+		String alpha_filename=new String(path.concat("statements1.txt"));
+		LinkedList<String> KB=new LinkedList<String>();
+		LinkedList<String> alpha=new LinkedList<String>();
+		String KB_str1,KB_str2,KB_str3;
+		String alpha_str1,alpha_str2,alpha_str3;
+		StringBuffer statement=new StringBuffer();
+		
+		try
+		{
+			BufferedReader br=new BufferedReader(new FileReader(kb_filename));
+			while((KB_str1=br.readLine())!=null)
+			{
+				KB_str2=KB_str1.replaceAll("\\(","\\( ");
+				KB_str3=KB_str2.replaceAll("\\)"," \\)");
+				convert_to_CNF_part1(KB_str3,KB);
+				//System.out.println("stmt:"+statement);
+			}
+			br.close();
+			for(int i=0;i<KB.size();i++)
+				System.out.println("after CNF1:"+KB.get(i));
+			System.out.println("\n");
+			convert_to_CNF_part2(KB);
+			for(int i=0;i<KB.size();i++)
+				System.out.println("after CNF2:"+KB.get(i));
+			/*********************************convert statements********************/
+			System.out.println(" ");
+			br=new BufferedReader(new FileReader(alpha_filename));
+			while((alpha_str1=br.readLine())!=null)
+			{
+				alpha.clear();
+				alpha_str2=alpha_str1.replaceAll("\\(","\\( ");
+				alpha_str3=alpha_str2.replaceAll("\\)"," \\)");
+				statement=new StringBuffer("( NOT "+alpha_str3+" )");
+				
+				convert_to_CNF_part1(statement.toString(),alpha);
+				//System.out.println("stmt:"+statement);
+				for(int i=0;i<alpha.size();i++)
+					System.out.println("alpha CNF1:"+alpha.get(i));
+				convert_to_CNF_part2(alpha);
+				for(int i=0;i<alpha.size();i++)
+					System.out.println("alpha CNF2:"+alpha.get(i));
+				System.out.println("\n");
+			}
+			br.close();
+		}
+		catch(Exception ex)
+		{
+			ex.printStackTrace();
+		}
+
+	}
+
+	public static void convert_to_CNF_part1(String line,LinkedList<String> storage)
+	{
+		StringBuffer statement=new StringBuffer(line);
+
+		statement=new StringBuffer(remove_unwanted_paranthesis(statement));
+		statement=new StringBuffer(remove_bi_conditional(statement));
+		statement=new StringBuffer(remove_unwanted_paranthesis(statement));
+		statement=new StringBuffer(remove_single_conditional(statement));
+		statement=new StringBuffer(remove_unwanted_paranthesis(statement));
+		statement=new StringBuffer(expand_NOT(statement));
+		statement=new StringBuffer(remove_unwanted_paranthesis(statement));
+		if(!storage.contains(statement.toString()))
+			storage.add(statement.toString());
+		return ;
+	}
+
+	public static void convert_to_CNF_part2(LinkedList<String> storage)
+	{
+		StringBuffer statement=new StringBuffer();
+		//StringBuffer statementType=new StringBuffer();
+		LinkedList<String> tokens=new LinkedList<String>();		
+		//boolean result=false;
+
+		divide_into_clauses(storage);	
+		for(int i=0;i<storage.size();i++)
+		{
+			statement.delete(0, statement.length());
+			statement.append(storage.get(i));
+			split_into_tokens(tokens,statement);
+			while(tokens.contains("AND"))
+			{
+				statement=new StringBuffer(distribute_OR(statement));
+				remove_unwanted_paranthesis(statement);
+				storage.remove(i);
+				if(!storage.contains(statement.toString()))
+					storage.add(i,statement.toString());
+				/*else
+					System.out.println("removed");*/
+				divide_into_clauses(storage);
+				statement.delete(0, statement.length());
+				statement.append(storage.get(i));
+				tokens.clear();
+				split_into_tokens(tokens,statement);
+			}
+		}
+		remove_unwanted_braces(storage);
+		add_braces_at_start(storage);
+		remove_if_two_operands_are_same(storage);
+		remove_always_true(storage);
+		
+		return;
+	}
+
+
+	public static void remove_if_two_operands_are_same(LinkedList<String> storage) 
+	{
+		StringBuffer statement=new StringBuffer();
+		for(int i=0;i<storage.size();i++)
+		{
+			statement=new StringBuffer(storage.get(i));
+			statement=new StringBuffer(evaluate_stmt_if_same(statement));
+			storage.remove(i);
+			if (!storage.contains(statement.toString()))
+				storage.add(i, statement.toString());
+			/*if(statement.toString().equals("SAME"))
+			{
+				//System.out.println("storage removed:"+storage.get(i));
+				storage.remove(i);
+			}
+			else
+				i++;*/
+		}
+		return;
+	}
+
+	public static StringBuffer evaluate_stmt_if_same(StringBuffer statement) 
+	{
+		StringBuffer result=new StringBuffer();
+		StringBuffer op1=new StringBuffer();
+		StringBuffer op2=new StringBuffer();
+		LinkedList<String> tokens=new LinkedList<String>();
+		LinkedList<String> op1_tokens=new LinkedList<String>();
+		//LinkedList<String> op1_tokenType=new LinkedList<String>();
+		LinkedList<String> op2_tokens=new LinkedList<String>();
+		//LinkedList<String> op2_tokenType=new LinkedList<String>();
+		int opr_index=0,op1_end_index=0;//op2_end_index=0;
+		//boolean flag= true,distributed=false;
+
+		//System.out.println("begin:"+statement);
+		split_into_tokens(tokens, statement);
+		if(tokens.contains("OR"))
+		{
+			opr_index=tokens.indexOf("OR");
+			op1_end_index=get_operand(tokens, opr_index+1, op1);
+			get_operand(tokens, op1_end_index+1, op2);
+
+			//System.out.println("op1:"+op1);
+			//System.out.println("op2:"+op2);
+			split_into_tokens(op1_tokens, op1);
+			if(op1_tokens.contains("OR"))
+			{
+				op1=new StringBuffer(evaluate_stmt_if_same(op1));
+				//System.out.println("op1 after eval:"+op1);
+			}
+		/*	else
+			{
+				distributed=check_if_NOT_already_distributed(op1);
+				op1_tokens.add(0,"(");
+				op1_tokens.add(1,"NOT");
+				op1_tokens.add(")");
+				classify_tokens_based_on_type(op1_tokens, op1_tokenType);				
+				if(!distributed)
+				{
+					distribute_NOT(op1_tokens, op1_tokenType, 1);
+				}				
+				combine_tokens(op1_tokens, op1);
+				//System.out.println("op1 after not distribute:"+op1);
+			}*/
+			split_into_tokens(op2_tokens, op2);
+			if(op2_tokens.contains("OR"))
+			{
+				op2=new StringBuffer(evaluate_stmt_if_same(op2));
+				//System.out.println("op2 after eval:"+op2);
+			}
+			/*else
+			{
+				op2_tokens.add(0,"(");
+				op2_tokens.add(1,"NOT");
+				op2_tokens.add(")");
+				classify_tokens_based_on_type(op2_tokens, op2_tokenType);
+				distribute_NOT(op2_tokens, op2_tokenType, 1);
+				combine_tokens(op2_tokens, op2);
+			}
+			if((op1.toString().equals("TRUE"))||(op2.toString().equals("TRUE")))
+			{
+				statement=new StringBuffer("TRUE");
+				flag=true;
+			}
+			else
+				flag=false;
+			if(!flag)
+			{*/
+				StringBuffer old_op1=new StringBuffer(op1);
+				StringBuffer old_op2=new StringBuffer(op2);
+				op1=new StringBuffer(remove_all_braces(op1));
+				op2=new StringBuffer(remove_all_braces(op2));
+				//System.out.println("op1:"+op1+" op2:"+op2);
+				if(op1.toString().equals(op2.toString()))
+				{
+					statement=new StringBuffer(old_op1);
+				}
+				else
+				{
+					statement=new StringBuffer("( OR "+old_op1+" "+old_op2+" )");
+				}
+			//}
+		}
+		//System.out.println("end:"+statement);
+		result.append(statement);
+		return result;
+	}
+
+	public static void remove_always_true(LinkedList<String> storage) 
+	{
+		StringBuffer statement=new StringBuffer();
+		for(int i=0;i<storage.size();)
+		{
+			statement=new StringBuffer(storage.get(i));
+			statement=new StringBuffer(evaluate_stmt_if_true(statement));
+			if(statement.toString().equals("TRUE"))
+			{
+				//System.out.println("storage removed:"+storage.get(i));
+				storage.remove(i);
+			}
+			else
+				i++;
+		}
+		return;
+	}
+
+	public static StringBuffer evaluate_stmt_if_true(StringBuffer statement) 
+	{
+		StringBuffer result=new StringBuffer();
+		StringBuffer op1=new StringBuffer();
+		StringBuffer op2=new StringBuffer();
+		LinkedList<String> tokens=new LinkedList<String>();
+		LinkedList<String> op1_tokens=new LinkedList<String>();
+		LinkedList<String> op1_tokenType=new LinkedList<String>();
+		LinkedList<String> op2_tokens=new LinkedList<String>();
+		//LinkedList<String> op2_tokenType=new LinkedList<String>();
+		int opr_index=0,op1_end_index=0;//op2_end_index=0;
+		boolean flag= true,distributed=false;
+
+		//System.out.println("begin:"+statement);
+		split_into_tokens(tokens, statement);
+		if(tokens.contains("OR"))
+		{
+			opr_index=tokens.indexOf("OR");
+			op1_end_index=get_operand(tokens, opr_index+1, op1);
+			get_operand(tokens, op1_end_index+1, op2);
+
+			//System.out.println("op1:"+op1);
+			//System.out.println("op2:"+op2);
+			split_into_tokens(op1_tokens, op1);
+			if(op1_tokens.contains("OR"))
+			{
+				op1=new StringBuffer(evaluate_stmt_if_true(op1));
+				//System.out.println("op1 after eval:"+op1);
+			}
+			else
+			{
+				distributed=check_if_NOT_already_distributed(op1);
+				op1_tokens.add(0,"(");
+				op1_tokens.add(1,"NOT");
+				op1_tokens.add(")");
+				classify_tokens_based_on_type(op1_tokens, op1_tokenType);				
+				if(!distributed)
+				{
+					distribute_NOT(op1_tokens, op1_tokenType, 1);
+				}				
+				combine_tokens(op1_tokens, op1);
+				//System.out.println("op1 after not distribute:"+op1);
+			}
+			split_into_tokens(op2_tokens, op2);
+			if(op2_tokens.contains("OR"))
+			{
+				op2=new StringBuffer(evaluate_stmt_if_true(op2));
+				//System.out.println("op2 after eval:"+op2);
+			}
+			/*else
+			{
+				op2_tokens.add(0,"(");
+				op2_tokens.add(1,"NOT");
+				op2_tokens.add(")");
+				classify_tokens_based_on_type(op2_tokens, op2_tokenType);
+				distribute_NOT(op2_tokens, op2_tokenType, 1);
+				combine_tokens(op2_tokens, op2);
+			}*/
+			if((op1.toString().equals("TRUE"))||(op2.toString().equals("TRUE")))
+			{
+				statement=new StringBuffer("TRUE");
+				flag=true;
+			}
+			else
+				flag=false;
+			if(!flag)
+			{
+				op1=new StringBuffer(remove_all_braces(op1));
+				op2=new StringBuffer(remove_all_braces(op2));
+				if(op1.toString().equals(op2.toString()))
+				{
+					statement=new StringBuffer("TRUE");
+				}
+			}
+		}
+		//System.out.println("end:"+statement);
+		result.append(statement);
+		return result;
+
+	}
+
+	public static StringBuffer remove_all_braces(StringBuffer line) 
+	{
+		LinkedList<String> tokens=new LinkedList<String>();
+
+		split_into_tokens(tokens, line);
+		for(int i=0;i<tokens.size();)
+		{
+			if((tokens.get(i).equals("("))||(tokens.get(i).equals(")")))
+				tokens.remove(i);
+			else
+				i++;
+		}
+		combine_tokens(tokens, line);
+		return line;
+	}
+
+	public static void add_braces_at_start(LinkedList<String> storage) 
+	{
+		LinkedList<String> tokenValue=new LinkedList<String>();
+		StringBuffer statement=new StringBuffer();
+
+		for(int i=0;i<storage.size();i++)
+		{
+			statement=new StringBuffer(storage.get(i));
+			tokenValue.clear();
+			split_into_tokens(tokenValue,statement);
+			if(!tokenValue.get(0).equals("("))
+			{
+				tokenValue.add(0,"(");
+				tokenValue.add(")");
+			}
+			combine_tokens(tokenValue, statement);
+			storage.remove(i);
+			storage.add(i,statement.toString());
+		}
+		return;
+	}
+
+	public static void remove_unwanted_braces(LinkedList<String> storage) 
+	{
+		LinkedList<String> tokenValue=new LinkedList<String>();
+		LinkedList<String> tokenType=new LinkedList<String>();
+		StringBuffer statement=new StringBuffer();
+
+		for(int i=0;i<storage.size();i++)
+		{
+			statement=new StringBuffer(storage.get(i));
+			tokenValue.clear();tokenType.clear();
+			split_into_tokens(tokenValue,statement);
+			classify_tokens_based_on_type(tokenValue, tokenType);
+
+			for(int j=0;j<tokenType.size()-3;j++)
+			{
+				//tokenType.get(j).
+				//if(tokenType.contains("( LIT )")
+				if((tokenType.get(j).equals("("))&&(tokenType.get(j+1).equals("LIT"))&&(tokenType.get(j+2).equals(")")))
+				{
+					//System.out.println("j:"+tokenValue.get(j)+" j+1:"+tokenValue.get(j+1)+" j+2:"+tokenValue.get(j+2));
+					tokenValue.remove(j);
+					tokenType.remove(j);
+					//System.out.println("j:"+tokenValue.get(j)+" j+1:"+tokenValue.get(j+1)+" j+2:"+tokenValue.get(j+2));
+					tokenValue.remove(j+1);
+					tokenType.remove(j+1);
+				}
+			}
+			combine_tokens(tokenValue, statement);
+			storage.remove(i);
+			storage.add(i,statement.toString());
+		}
+		return;
+	}
+
+	public static boolean check_if_statement_is_always_true(StringBuffer statement) 
+	{
+		boolean result=false;
+		LinkedList<String> tokens=new LinkedList<String>();
+
+		split_into_tokens(tokens, statement);
+		if(tokens.contains("OR"))
+		{
+
+		}
+		return result;
+	}
+
+	public static StringBuffer remove_single_conditional(StringBuffer statement) 
+	{
+		LinkedList<String> tokenValue=new LinkedList<String>();
+		LinkedList<String> tokenType=new LinkedList<String>();
+
+		split_into_tokens(tokenValue,statement);
+		//classify_tokens_based_on_type(tokenValue,tokenType);
+		while(tokenValue.contains("=>"))
+		{
+			remove_implication(tokenValue,tokenType);
+			//classify_tokens_based_on_type(tokenValue,tokenType);
+		}
+		combine_tokens(tokenValue,statement);
+		return statement;
+	}
+
+	public static StringBuffer remove_bi_conditional(StringBuffer statement) 
+	{
+		LinkedList<String> tokenValue=new LinkedList<String>();
+		LinkedList<String> tokenType=new LinkedList<String>();
+
+		split_into_tokens(tokenValue,statement);
+		//classify_tokens_based_on_type(tokenValue,tokenType);
+		while(tokenValue.contains("<=>"))
+		{
+			remove_double_implication(tokenValue,tokenType);
+			//classify_tokens_based_on_type(tokenValue,tokenType);
+		}
+		combine_tokens(tokenValue,statement);
+		return statement;
+	}
+
+	public static void divide_into_clauses(LinkedList<String> storage) 
+	{
+		boolean divide=true;
+		for(int i=0;i<storage.size();i++)
+		{
+			divide=true;
+			while(divide)
+				divide=divide_KB_into_clauses(storage, i);
+		}
+		return;
+	}
+
+	public static StringBuffer expand_NOT(StringBuffer statement)
+	{
+		LinkedList<String> tokenValue=new LinkedList<String>();
+		LinkedList<String> tokenType =new LinkedList<String>();
+		StringBuffer check_op1=new StringBuffer();
+		int currentIndexNOT,prevIndexNOT;
+		boolean distributed=false;
+
+		split_into_tokens(tokenValue, statement);
+		classify_tokens_based_on_type(tokenValue, tokenType);
+		prevIndexNOT=0;
+		while(true)
+		{
+			currentIndexNOT=-1;
+			for (int i=prevIndexNOT;i<tokenValue.size();i++)
+			{
+				if(tokenValue.get(i).equals("NOT"))
+				{
+					currentIndexNOT=i;
+					break;
+				}
+			}
+			if(currentIndexNOT==-1)
+				break;
+			check_op1.delete(0,check_op1.length());
+			get_operand(tokenValue, currentIndexNOT+1, check_op1);
+			distributed=check_if_NOT_already_distributed(check_op1);
+			if(!distributed)
+			{
+				distribute_NOT(tokenValue,tokenType, currentIndexNOT);
+				combine_tokens(tokenValue, statement);
+			}
+			prevIndexNOT=currentIndexNOT+1;
+		}
+		return statement;
+	}
+
+	public static void convert_alpha_to_CNF(String alpha) 
+	{
+		return;
+	}
+
+	/*public static void remove_and_from_clauses(LinkedList<String> KB, int index) 
+	{
+		boolean divide=true;
+		for(int i=index;i<KB.size();i++)
+		{
+			while(divide)
+				divide=divide_KB_into_clauses(KB, i);
+		}
+		return;
+	}*/
+
+	public static boolean divide_KB_into_clauses(LinkedList<String> KB, int index) 
+	{
+		boolean divide=false;
+		StringBuffer line=new StringBuffer(KB.get(index));
+		LinkedList<String> tokens=new LinkedList<String>();
+		StringBuffer op1=new StringBuffer();
+		StringBuffer op2=new StringBuffer();
+		int end=0,i=0,count=0,op1_end_index=0;//op2_end_index=0;
+
+		split_into_tokens(tokens, line);
+		if((end=(tokens.indexOf("AND")))!=-1)
+		{
+			for(i=0;i<end;i++)
+			{
+				if(tokens.get(i).equals("("))
+				{
+					count++;
+				}
+				else if(tokens.get(i).equals(")"))
+				{
+					count--;
+				}		
+			}
+			if(count==1)
+			{
+				op1_end_index=get_operand(tokens, end+1, op1);
+				get_operand(tokens, op1_end_index+1, op2);
+				KB.remove(index);
+				if (!KB.contains(op1.toString()))
+					KB.add(index,op1.toString());
+				if (!KB.contains(op2.toString()))
+					KB.add(index+1,op2.toString());
+				divide=true;
+			}
+		}
+
+		return divide;
+	}
+
+	public static StringBuffer remove_unwanted_paranthesis(StringBuffer line)
+	{
+		LinkedList<String> tokens=new LinkedList<String>();
+		int i=0,start=0,end=0;
+		boolean unwanted=true;
+
+		while(unwanted)
+		{
+			//System.out.println("line:"+line);
+			tokens.clear();
+			split_into_tokens(tokens, line);
+			//System.out.println("before:"+line);
+			for(i=0;i<tokens.size()-1;i++)
+			{
+				if((tokens.get(i).equals("("))&&(tokens.get(i+1).equals("(")))
+				{
+					start=i;
+					end=find_matching_end(tokens,i);
+					unwanted=true;
+					break;
+				}
+				else
+					unwanted=false;
+			}
+			if(unwanted)
+			{
+				tokens.remove(start);
+				tokens.remove(end-1);
+			}
+			//line.delete(0, tokens.size());
+			combine_tokens(tokens, line);
+			//for(int j=0;j<tokens.size();j++)
+			//System.out.println("token j:"+tokens.get(j));
+			//System.out.println("line:"+line);
+		}
+		return line;
+	}
+
+	public static int find_matching_end(LinkedList<String> tokens, int index)
+	{
+		int count=0,i=0;
+		for (i=index;i<tokens.size();i++)
+		{
+			if(tokens.get(i).equals("("))
+				count++;
+			if(tokens.get(i).equals(")"))
+			{
+				count--;
+				if(count==0)
+					break;
+			}
+		}
+		return i;
+	}
+
+	public static boolean check_if_NOT_already_distributed( StringBuffer statement) 
+	{
+		LinkedList<String> op_token_value=new LinkedList<String>();
+		LinkedList<String> op_token_type=new LinkedList<String>();
+		String first,second,third;
+		boolean distributed=false;
+
+		split_into_tokens(op_token_value,statement);
+		classify_tokens_based_on_type(op_token_value, op_token_type);
+
+		first=op_token_type.get(0);
+		//System.out.println(first);
+		if(first.equals("LIT"))
+			distributed=true;
+		if((first.equals("(")))
+		{
+			second=op_token_type.get(1);
+			//System.out.println(second);
+			third=op_token_type.get(2);
+			//System.out.println(third);
+			if((second.equals("LIT"))&&(third.equals(")")))
+				distributed=true;
+		}
+
+		return distributed;
+	}
+
+	public static void classify_tokens_based_on_type(LinkedList<String> tokenValue,LinkedList<String> tokenType) 
+	{
+		tokenType.clear();
+		for(int i=0;i<tokenValue.size();i++)
+		{
+			if(tokenValue.get(i).equals("("))
+				tokenType.add("(");
+			else if(tokenValue.get(i).equals(")"))
+				tokenType.add(")");
+			else if(tokenValue.get(i).matches("NOT|OR|AND"))
+				tokenType.add("OPR");
+			else if(tokenValue.get(i).matches("[a-zA-Z]+"))
+				tokenType.add("LIT");
+			/*else
+			{
+				System.out.println("culprit:"+tokenValue.get(i));
+				tokenType.add("ZZZ");
+			}
+			System.out.println("tokenvalue i:"+i+" "+tokenValue.get(i));
+			System.out.println("tokentype i:"+i+" "+tokenType.get(i));*/
+		}
+		return;
+	}
+
+	public static void combine_tokens(LinkedList<String> tokenValue,StringBuffer statement) 
+	{
+		StringBuffer line=new StringBuffer();
+		for(int i=0;i<tokenValue.size();i++)
+			line.append(tokenValue.get(i)+" ");
+		statement.delete(0,statement.length());
+		statement.append(line);
+		return;
+	}
+
+	public static void split_into_tokens(LinkedList<String> tokenValue, StringBuffer statement)
+	{
+		String data[]=new String[200];
+		tokenValue.clear();
+		data=statement.toString().split("[ \\t\\n\\r]+");
+		for(int i=0;i<data.length;i++)
+			tokenValue.add(data[i]);
+		return;
+	}
+
+
+	public static int get_operand(LinkedList<String> tokenValue, int index, StringBuffer op)
+	{
+		int i,count;
+
+		i=index;
+		if(tokenValue.get(i).equals("("))
+		{
+			count=0;
+			while(i<tokenValue.size())
+			{
+				op.append(tokenValue.get(i));
+				if(tokenValue.get(i).equals("("))
+				{
+					count++;
+				}
+				if(tokenValue.get(i).equals(")"))
+				{
+					count--;
+					if(count==0)
+						break;
+				}
+				op.append(" ");
+				i++;
+			}
+		}
+		else
+		{
+			op.append(tokenValue.get(i));
+		}
+		return i;
+	}
+
+	public static void remove_double_implication(LinkedList<String> tokenValue,LinkedList<String> tokenType)
+	{
+		StringBuffer op1=new StringBuffer();
+		StringBuffer op2=new StringBuffer();
+		StringBuffer op3=new StringBuffer();
+		StringBuffer op4=new StringBuffer();
+		String data[]=new String[100];
+		String result;
+		int index,op1_end_index,op2_end_index,i;
+
+		index=tokenValue.indexOf("<=>");
+		op1_end_index=get_operand(tokenValue,index+1,op1);
+		op2_end_index=get_operand(tokenValue,op1_end_index+1,op2);
+		op3.append(op1);
+		op4.append(op2);
+		delete_tokens(tokenValue,tokenType,index,op2_end_index);
+		op1.insert(0,"AND  ( => ");
+		op2.append(" ) ( => "+op4+" "+op3+" )");
+		result=new String(op1.toString()+" "+op2.toString());
+		data=result.split("[ \\t\\n\\r]+");
+		for(i=0;i<data.length;i++)
+			tokenValue.add(index+i,data[i]);
+
+		return;
+	}
+
+	public static void remove_implication(LinkedList<String> tokenValue,LinkedList<String> tokenType)
+	{	
+		StringBuffer op1=new StringBuffer();
+		StringBuffer op2=new StringBuffer();
+		String data[]=new String[200];
+		String result;
+		int index,op1_end_index,op2_end_index,i;
+
+		index=tokenValue.indexOf("=>");
+		op1_end_index=get_operand(tokenValue,index+1,op1);
+		//System.out.println("op1:"+op1);
+		op2_end_index=get_operand(tokenValue,op1_end_index+1,op2);
+		//System.out.println("op2:"+op2+" index: "+op2_end_index);
+		delete_tokens(tokenValue,tokenType,index,op2_end_index);
+		op1.insert(0,"OR ( NOT ");
+		op1.append(" )");
+		result=new String(op1.toString()+" "+op2.toString());
+		data=result.split("[ \\t\\n\\r]+");
+		for(i=0;i<data.length;i++)
+			tokenValue.add(index+i,data[i]);
+		return;
+	}
+
+
+	public static void delete_tokens(LinkedList<String> tokenValue,LinkedList<String> tokenType,int start, int end) 
+	{
+		StringBuffer statement=new StringBuffer();
+		combine_tokens(tokenValue, statement);
+		//classify_tokens_based_on_type(tokenValue, tokenType);
+		int i=start;
+		//System.out.println("state:"+statement);
+		while(i<=end)
+		{
+			tokenValue.remove(i);
+			//tokenType.remove(i);
+			end=end-1;
+		}
+		return;
+	}
+
+
+	public static void distribute_NOT(LinkedList<String> tokenValue, LinkedList<String> tokenType, int index)
+	{
+		StringBuffer op1=new StringBuffer();
+		String current_token,first,second;
+		LinkedList<String> op1_tokenValue=new LinkedList<String>();
+		LinkedList<String> op1_tokenType=new LinkedList<String>();
+		int op1_end_index,i=1;
+
+		int op1_not_and_index,op2_not_and_index;
+		StringBuffer op1_not_and=new StringBuffer();
+		StringBuffer op2_not_and=new StringBuffer();
+
+		int op1_not_or_index,op2_not_or_index;
+		StringBuffer op1_not_or=new StringBuffer();
+		StringBuffer op2_not_or=new StringBuffer();
+
+		/*int op1_not_index;
+		StringBuffer op1_not=new StringBuffer();*/
+
+		op1_end_index=get_operand(tokenValue,index+1,op1);
+		delete_tokens(tokenValue, tokenType, index, op1_end_index);
+
+		split_into_tokens(op1_tokenValue, op1);
+		classify_tokens_based_on_type(op1_tokenValue, op1_tokenType);
+		first=op1_tokenType.get(0);
+		if(first.equals("("))
+		{
+			second=op1_tokenType.get(1);
+			if(second.equals("OPR"))
+			{
+				i=1;
+				current_token=op1_tokenValue.get(i);
+				if(current_token.equals("NOT"))
+				{
+					op1_tokenValue.remove(i);
+					op1_tokenType.remove(i);
+
+					op1_tokenValue.remove(op1_tokenValue.size()-1);
+					op1_tokenType.remove(op1_tokenType.size()-1);
+
+					op1_tokenValue.remove(0);
+					op1_tokenType.remove(0);
+				}
+				if(current_token.equals("AND"))
+				{
+					//System.out.println("before remove:"+op1_tokenValue.get(i));
+					op1_tokenValue.remove(i);
+					op1_tokenValue.add(i,"OR");
+					StringBuffer and_operand=new StringBuffer();
+					//System.out.println("i+1:"+op1_tokenValue.get(i+1));
+
+					/*op1_not_or_index=get_operand(op1_tokenValue,i+1,op1_not_or);
+					System.out.println("check1:"+op1_not_or);
+					System.out.println("not or index:"+op1_tokenValue.get(op1_not_or_index));
+					op1_tokenValue.add(i+1,"NOT");
+					op1_tokenType.add(i+1,"OPR");
+					//op1_tokenValue.add(i+2,"(");
+					//op1_tokenType.add(i+2,"(");
+
+					op2_not_or_index=get_operand(op1_tokenValue,op1_not_or_index+2,op2_not_or);
+					System.out.println("check2:"+op2_not_or);
+					op1_tokenValue.add(op1_not_or_index+2, "NOT");
+					op1_tokenType.add(op1_not_or_index+2, "OPR");*/
+
+					op1_not_and_index=get_operand(op1_tokenValue,i+1,op1_not_and);
+					op1_not_and.insert(0, "( NOT ");
+					op1_not_and.append(" )");
+
+					op2_not_and_index=get_operand(op1_tokenValue,op1_not_and_index+1,op2_not_and);
+					op2_not_and.insert(0, "( NOT ");
+					op2_not_and.append(" )");
+
+					and_operand.append(op1_not_and+" "+op2_not_and);
+					//System.out.println("and operand:"+and_operand);
+					LinkedList<String> tokens=new LinkedList<String>();
+					//System.out.println("i+1:"+op1_tokenValue.get(i+1));
+					delete_tokens(op1_tokenValue, op1_tokenType, i+1, op2_not_and_index);
+					split_into_tokens(tokens, and_operand);
+					/*for(int j=0;j<tokens.size();j++)
+					{
+
+						System.out.println("index:"+j+"tokens:"+tokens.get(j));
+					}
+					/*System.out.println("i+1:"+op1_tokenValue.get(i+1));
+					System.out.println("index:0 op1_tokenValue:"+op1_tokenValue.get(0));
+					System.out.println("index:1 op1_tokenValue:"+op1_tokenValue.get(1));*/
+					for(int j=0;j<tokens.size();j++)
+					{
+						//int tmp=i+1+j;
+						op1_tokenValue.add(i+1+j, tokens.get(j));
+						//System.out.println("index:"+tmp+"op1_tokenValue:"+op1_tokenValue.get(tmp));
+					}
+					//i=op2_not_or_index+4;
+
+
+				}
+
+				if(current_token.equals("OR"))
+				{
+					StringBuffer or_operand=new StringBuffer();
+					LinkedList<String> tokens=new LinkedList<String>();
+
+					op1_tokenValue.remove(i);
+					op1_tokenValue.add(i,"AND");
+
+					op1_not_or_index=get_operand(op1_tokenValue,i+1,op1_not_or);
+					op1_not_or.insert(0, "( NOT ");
+					op1_not_or.append(" )");
+
+					op2_not_or_index=get_operand(op1_tokenValue,op1_not_or_index+1,op2_not_or);
+					op2_not_or.insert(0, "( NOT ");
+					op2_not_or.append(" )");
+
+					or_operand.append(op1_not_or+" "+op2_not_or);
+
+					delete_tokens(op1_tokenValue, op1_tokenType, i+1, op2_not_or_index);
+					split_into_tokens(tokens, or_operand);
+					for(int j=0;j<tokens.size();j++)
+					{
+						//int tmp=i+1+j;
+						op1_tokenValue.add(i+1+j, tokens.get(j));
+					}
+				}
+				classify_tokens_based_on_type(op1_tokenValue, op1_tokenType);
+				join_tokenlist(tokenValue,tokenType,op1_tokenValue,op1_tokenType,index); 
+			}
+		}
+		return ;
+	}
+
+	public static void join_tokenlist(LinkedList<String> tokenValue,LinkedList<String> tokenType, LinkedList<String> toadd_tokenValue,
+			LinkedList<String> toadd_tokenType, int index) 
+	{
+		for(int i=0;i<toadd_tokenValue.size();i++)
+		{
+			tokenValue.add(index+i, toadd_tokenValue.get(i));
+			tokenType.add(index+i, toadd_tokenType.get(i));
+		}
+		return;
+	}
+
+
+	public static StringBuffer distribute_OR(StringBuffer statement)
+	{
+		LinkedList<String> tokens=new LinkedList<String>();
+		LinkedList<String> outer_op1_tokens=new LinkedList<String>();
+		LinkedList<String> outer_op2_tokens=new LinkedList<String>();
+
+
+		StringBuffer outer_op1=new StringBuffer();
+		StringBuffer outer_op2=new StringBuffer();
+		StringBuffer alpha=new StringBuffer();
+		StringBuffer beta=new StringBuffer();
+		StringBuffer gamma=new StringBuffer();
+		StringBuffer result=new StringBuffer();
+		StringBuffer op1_result=new StringBuffer();
+		StringBuffer op2_result=new StringBuffer();
+
+
+		StringBuffer outer_operator,inner_op1_operator,inner_op2_operator;
+		int outer_op1_end_index=0,inner_op1_end_index=0;//inner_op2_end_index=0,outer_op2_end_index=0;
+
+		//System.out.println("statement:"+statement);
+		split_into_tokens(tokens, statement);
+		//if(tokens.size()>0)
+		//{
+		outer_operator=new StringBuffer(get_operator(tokens,0));
+		//System.out.println("outer operator:"+outer_operator);
+		result.delete(0, result.length());
+		result.append(statement);
+		if(outer_operator.toString().equals("OR"))
+		{
+			//System.out.println("enter");
+			if(tokens.contains("AND"))
+			{
+				outer_op1_end_index=get_operand(tokens, 2, outer_op1);
+				get_operand(tokens, outer_op1_end_index+1, outer_op2);
+				//outer_op2_end_index=get_operand(tokens, outer_op1_end_index+1, outer_op2);
+				//System.out.println("outer_op1:"+outer_op1);
+				//System.out.println("outer_op2:"+outer_op2);
+
+				split_into_tokens(outer_op1_tokens,outer_op1);
+				split_into_tokens(outer_op2_tokens,outer_op2);
+
+				inner_op1_operator=new StringBuffer(get_operator(outer_op1_tokens,0));
+				inner_op2_operator=new StringBuffer(get_operator(outer_op2_tokens,0));
+				//System.out.println("inner op1 operator:"+inner_op1_operator);
+				//System.out.println("inner op2 operator:"+inner_op2_operator);
+
+				if(inner_op1_operator.toString().equals("AND"))
+				{
+					beta.delete(0, beta.length());
+					gamma.delete(0, gamma.length());
+					alpha.delete(0, alpha.length());
+					result.delete(0, result.length());
+					inner_op1_end_index=get_operand(outer_op1_tokens, 2, beta);
+					get_operand(outer_op1_tokens, inner_op1_end_index+1, gamma);
+					//inner_op2_end_index=get_operand(outer_op1_tokens, inner_op1_end_index+1, gamma);
+					alpha.append(outer_op2);
+					result.append("( AND ( OR "+beta+" "+alpha+" ) ( OR "+gamma+" "+alpha+" ) )");
+					//System.out.println("result1:"+result);
+				}
+				else if(inner_op2_operator.toString().equals("AND"))
+				{
+					beta.delete(0, beta.length());
+					gamma.delete(0, gamma.length());
+					alpha.delete(0, alpha.length());
+					result.delete(0, result.length());
+					inner_op1_end_index=get_operand(outer_op2_tokens, 2, beta);
+					get_operand(outer_op2_tokens, inner_op1_end_index+1, gamma);
+					//inner_op2_end_index=get_operand(outer_op2_tokens, inner_op1_end_index+1, gamma);
+					alpha.append(outer_op1);
+					result.append("( AND ( OR "+alpha+" "+beta+" ) ( OR "+alpha+" "+gamma+" ) )");
+					//System.out.println("result2:"+result);
+				}
+				else
+				{
+					op1_result.delete(0, op1_result.length());
+					op2_result.delete(0, op2_result.length());
+
+					//System.out.println("outer_op1:"+outer_op1);
+					op1_result.append(distribute_OR(outer_op1));
+					//System.out.println("op1 result:"+op1_result);
+
+					//System.out.println("outer_op2:"+outer_op2);
+					op2_result.append(distribute_OR(outer_op2));
+					//System.out.println("op2 result:"+op2_result);
+
+					result.delete(0, result.length());
+					result.append("( "+outer_operator+" "+op1_result+" "+op2_result+" )");
+					//System.out.println("result3:"+result);
+					//distribute_OR(result);
+				}
+			}
+		}
+		//}
+		//System.out.println("exit");
+		return result;
+	}
+
+	public static String get_operator(LinkedList<String> tokens, int index)
+	{
+		StringBuffer result=new StringBuffer();
+		for(int i=index;i<tokens.size();i++)
+		{
+			if(tokens.get(i).equals("NOT"))
+			{
+				result.append("NOT");
+				break;
+			}
+			else if(tokens.get(i).equals("AND"))
+			{
+				result.append("AND");
+				break;
+			}
+			else if(tokens.get(i).equals("OR"))
+			{
+				result.append("OR");
+				break;
+			}
+
+		}
+		return result.toString();
+	}
+}

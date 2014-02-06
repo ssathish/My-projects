@@ -1,0 +1,6 @@
+(AND (=> a b) (<=> (NOT c) (=> a d)))
+(AND (NOT d) (=> b (NOT c)))
+(AND (OR e b) (=> (NOT c) (NOT c)))
+(OR e (NOT (d)))
+(<=> b (=> (NOT c) a))
+(AND (=> (OR a e) c) (AND a (AND b (NOT c))))
